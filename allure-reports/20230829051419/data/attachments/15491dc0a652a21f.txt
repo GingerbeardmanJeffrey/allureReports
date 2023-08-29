@@ -1,0 +1,11 @@
+INFO     root:conftest.py:155 ==========Starting API response conditions validation for test_create_user_step1==========
+INFO     root:conftest.py:156 API Response: 200 - {
+  "kind": "identitytoolkit#SignupNewUserResponse",
+  "idToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImM2MGI5ZGUwODBmZmFmYmZjMTgzMzllY2Q0NGFjNzdmN2ZhNGU4ZDMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY29yZS1kZXYtOWI1NGIiLCJhdWQiOiJjb3JlLWRldi05YjU0YiIsImF1dGhfdGltZSI6MTY5MzI4NjE0MiwidXNlcl9pZCI6IlJrdVNmdDVEdDRTV2xJRTRtVk1pZjF3YWFSQzIiLCJzdWIiOiJSa3VTZnQ1RHQ0U1dsSUU0bVZNaWYxd2FhUkMyIiwiaWF0IjoxNjkzMjg2MTQyLCJleHAiOjE2OTMyODk3NDIsImVtYWlsIjoibmVyZGNvcmVfcWF0ZWFtK3RlbXBsM2toZnRhOUBuZXJkdW5pdGVkLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJuZXJkY29yZV9xYXRlYW0rdGVtcGwza2hmdGE5QG5lcmR1bml0ZWQuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.SWKCGs5kz2KqlBiR8GAbEDEhV7GDGRW8wHRbOcdPIWneg5nsES43o6BA5xSKMkrKC5I4P9gNA9GBIkGP9T9p89ztMtQw4I7nGNb2v_NgpoGCIS-x4D7SRHJyN3WPMY8vRT3LVt-7JhaMKOJM0kc9epmRgGNU7lbf-XLwuUI9kAfj7MSzKCtxfJWBMMvUtCqc_sD0UZcqTThQU-GfrX28V-35XcpMRbc9MTyRKdivOJTJjQWwMkti8qSZDRk1pNR6e3f7cMmwopvGzrATWhZnuzNyASrm9Yh1JVc6DpAGGtfLW_rhIm4eRikwoyOjsH3ui1SyLkNOdDo1rPb-iZhc4Q",
+  "email": "nerdcore_qateam+templ3khfta9@nerdunited.com",
+  "refreshToken": "AMf-vBz0-ifqvPwkTUOBpqWAukL7fmHIoUfLRVWOLTwpDKCHQO9gAKnE0zoJv1t_kDJ41sy_lnzegyLMYMBu2jaPTuLt7ox94nYUi3mzku80Cd-LY3xk4aHePJVF6nTkSEFrAqqX9wtrgWjXZpi_Yn-rgc-yAYrECWEKwnXxixCSZ4WOXTXZbRnqrhJFfmLfnH6tEVrgipEKqAHXedMbuLZbx4ymcOEhZC0dyMehd2YoqQNXgksTMN8",
+  "expiresIn": "3600",
+  "localId": "RkuSft5Dt4SWlIE4mVMif1waaRC2"
+}
+
+INFO     root:conftest.py:159 Test 'test_create_user_step1' passed for codes: 200, 201, 202, 203, 204, 205
