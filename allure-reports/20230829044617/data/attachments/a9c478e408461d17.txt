@@ -1,0 +1,3 @@
+INFO     root:conftest.py:155 ==========Starting API response conditions validation for test_get_license_types==========
+INFO     root:conftest.py:156 API Response: 200 - {"licenseTypes":[{"id":1,"licenseTypeEnum":"smartNode","name":"Smart Node","nodeType":"Large Node","brand":"Green","rewardType":"GREEN"},{"id":2,"licenseTypeEnum":"liteNode","name":"LiteNode","nodeType":"Lite Node","brand":"Green","rewardType":"GREEN"},{"id":3,"licenseTypeEnum":"liteNode","name":"Lite Node","nodeType":"Lite Node","brand":"","rewardType":""},{"id":4,"licenseTypeEnum":"none","name":"None","nodeType":"None","brand":"","rewardType":""}]}
+INFO     root:conftest.py:159 Test 'test_get_license_types' passed for codes: 200, 201, 202, 203, 204, 205
