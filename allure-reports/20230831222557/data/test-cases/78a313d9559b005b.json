@@ -1,0 +1,186 @@
+{
+  "uid" : "78a313d9559b005b",
+  "name" : "test_delete_new_user",
+  "fullName" : "tests.test_new_user_flow#test_delete_new_user",
+  "historyId" : "dcfba081fa3625c734ee66c00a1e84a9",
+  "time" : {
+    "start" : 1693520841523,
+    "stop" : 1693520841996,
+    "duration" : 473
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "environment",
+    "time" : {
+      "start" : 1693520837411,
+      "stop" : 1693520837411,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1693520837411,
+      "stop" : 1693520837411,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1693520837881,
+      "stop" : 1693520837881,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1693520837881,
+      "stop" : 1693520837881,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1693520840910,
+      "stop" : 1693520841523,
+      "duration" : 613
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Logging API response for auth_token",
+      "time" : {
+        "start" : 1693520841521,
+        "stop" : 1693520841522,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e34c55080c1e3342",
+        "name" : "API Response",
+        "source" : "e34c55080c1e3342.txt",
+        "type" : "text/plain",
+        "size" : 14616
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Logging API response for test_delete_new_user",
+      "time" : {
+        "start" : 1693520841995,
+        "stop" : 1693520841995,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e111885316936b65",
+        "name" : "API Response",
+        "source" : "e111885316936b65.txt",
+        "type" : "text/plain",
+        "size" : 139
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6c1ee260520ef5ee",
+      "name" : "log",
+      "source" : "6c1ee260520ef5ee.txt",
+      "type" : "text/plain",
+      "size" : 15208
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_new_user_flow"
+  }, {
+    "name" : "host",
+    "value" : "fv-az577-592"
+  }, {
+    "name" : "thread",
+    "value" : "1738-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_new_user_flow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78a313d9559b005b.json",
+  "parameterValues" : [ ]
+}

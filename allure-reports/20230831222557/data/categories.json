@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed: Timeout >10.0s",
+      "children" : [ {
+        "name" : "test_get_balance",
+        "uid" : "27cde7aa73ae7975",
+        "parentUid" : "a6238fb0a78458819efd786ffa02621d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1693520825787,
+          "stop" : 1693520835808,
+          "duration" : 10021
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6238fb0a78458819efd786ffa02621d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
