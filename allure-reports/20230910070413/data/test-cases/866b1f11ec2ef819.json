@@ -1,0 +1,152 @@
+{
+  "uid" : "866b1f11ec2ef819",
+  "name" : "test_delete_new_user",
+  "fullName" : "tests.test_new_user_flow#test_delete_new_user",
+  "historyId" : "dcfba081fa3625c734ee66c00a1e84a9",
+  "time" : {
+    "start" : 1694329555147,
+    "stop" : 1694329555824,
+    "duration" : 677
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: API response status code: 500\nassert 500 in [200, 201, 202, 203, 204, 205]\n +  where 500 = <Response [500]>.status_code",
+  "statusTrace" : "base_url = 'https://api.dev.nerdunited.net'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MGFkMTE4YTk0MGFkYzlmMmY1Mzc2YjM1MjkyZmVkZThjMmQwZWUiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...31P3YEpTeb2SM9ZvG24HCfX1ypkIw8KUA4yPV9RU5EjnKvIWlVj-_zO1RWj1v6NwARWat1qhRfnzNkeN57qicZDlxH8yz5ELtU_XM5AkNby9VeLMang-0Q'\nconfig = <module 'config' from '/home/runner/work/qa-nerd-core-backend/qa-nerd-core-backend/config.py'>\n\n    def test_delete_new_user(base_url, auth_token, config):\n        global email\n        url = f\"{base_url}{config.MEMBERSHIP_URL}/admin/user-cleanup\"\n        headers = {\"Authorization\": f\"Bearer {auth_token}\"}\n        data = {\"emails\": [email],\n            \"deleteFromDb\": True}\n        response = requests.post(url=url, headers=headers, json=data)\n>       api_response_conditions(response)\n\ntests/test_new_user_flow.py:109: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [500]>, test_name = 'test_delete_new_user'\n\n    def api_response_conditions(response, test_name=None):\n        if test_name is None:\n            caller_frame = inspect.currentframe().f_back\n            test_name = caller_frame.f_code.co_name\n        logging.info(f\"=== Starting {test_name} Test ===\")\n        logging.info(f\"API Response: {response.status_code} | {response.text}\")\n        allowed_status_codes = [200, 201, 202, 203, 204, 205]\n    \n        try:\n>           assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\nE           AssertionError: API response status code: 500\nE           assert 500 in [200, 201, 202, 203, 204, 205]\nE            +  where 500 = <Response [500]>.status_code\n\nconftest.py:170: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "environment",
+    "time" : {
+      "start" : 1694329548985,
+      "stop" : 1694329548985,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1694329548986,
+      "stop" : 1694329548986,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1694329549435,
+      "stop" : 1694329549435,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1694329549435,
+      "stop" : 1694329549435,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1694329554281,
+      "stop" : 1694329555146,
+      "duration" : 865
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: API response status code: 500\nassert 500 in [200, 201, 202, 203, 204, 205]\n +  where 500 = <Response [500]>.status_code",
+    "statusTrace" : "base_url = 'https://api.dev.nerdunited.net'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MGFkMTE4YTk0MGFkYzlmMmY1Mzc2YjM1MjkyZmVkZThjMmQwZWUiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...31P3YEpTeb2SM9ZvG24HCfX1ypkIw8KUA4yPV9RU5EjnKvIWlVj-_zO1RWj1v6NwARWat1qhRfnzNkeN57qicZDlxH8yz5ELtU_XM5AkNby9VeLMang-0Q'\nconfig = <module 'config' from '/home/runner/work/qa-nerd-core-backend/qa-nerd-core-backend/config.py'>\n\n    def test_delete_new_user(base_url, auth_token, config):\n        global email\n        url = f\"{base_url}{config.MEMBERSHIP_URL}/admin/user-cleanup\"\n        headers = {\"Authorization\": f\"Bearer {auth_token}\"}\n        data = {\"emails\": [email],\n            \"deleteFromDb\": True}\n        response = requests.post(url=url, headers=headers, json=data)\n>       api_response_conditions(response)\n\ntests/test_new_user_flow.py:109: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [500]>, test_name = 'test_delete_new_user'\n\n    def api_response_conditions(response, test_name=None):\n        if test_name is None:\n            caller_frame = inspect.currentframe().f_back\n            test_name = caller_frame.f_code.co_name\n        logging.info(f\"=== Starting {test_name} Test ===\")\n        logging.info(f\"API Response: {response.status_code} | {response.text}\")\n        allowed_status_codes = [200, 201, 202, 203, 204, 205]\n    \n        try:\n>           assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\nE           AssertionError: API response status code: 500\nE           assert 500 in [200, 201, 202, 203, 204, 205]\nE            +  where 500 = <Response [500]>.status_code\n\nconftest.py:170: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dd9ddddbc258c48a",
+      "name" : "log",
+      "source" : "dd9ddddbc258c48a.txt",
+      "type" : "text/plain",
+      "size" : 15945
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_new_user_flow"
+  }, {
+    "name" : "host",
+    "value" : "fv-az560-629"
+  }, {
+    "name" : "thread",
+    "value" : "1759-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_new_user_flow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "866b1f11ec2ef819.json",
+  "parameterValues" : [ ]
+}
