@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: API response status code: 500\nassert 500 in [200, 201, 202, 203, 204, 205]\n +  where 500 = <Response [500]>.status_code",
+      "children" : [ {
+        "name" : "test_get_products",
+        "uid" : "e751f410c77f58e5",
+        "parentUid" : "a7210480259d404eab521b8b7384884c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1694675118848,
+          "stop" : 1694675122352,
+          "duration" : 3504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7210480259d404eab521b8b7384884c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
