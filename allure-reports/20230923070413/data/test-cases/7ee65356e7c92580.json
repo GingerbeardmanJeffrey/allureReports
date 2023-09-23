@@ -1,0 +1,102 @@
+{
+  "uid" : "7ee65356e7c92580",
+  "name" : "test_coin_market_cap[ize]",
+  "fullName" : "tests.test_api_fees#test_coin_market_cap",
+  "historyId" : "13a0a4d435895e67637569a976791ad1",
+  "time" : {
+    "start" : 1695452672887,
+    "stop" : 1695452672986,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "config",
+    "time" : {
+      "start" : 1695452672671,
+      "stop" : 1695452672671,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1695452672671,
+      "stop" : 1695452672671,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f49abe274c0174e0",
+      "name" : "log",
+      "source" : "f49abe274c0174e0.txt",
+      "type" : "text/plain",
+      "size" : 1345
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_fees"
+  }, {
+    "name" : "host",
+    "value" : "fv-az559-141"
+  }, {
+    "name" : "thread",
+    "value" : "1747-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_fees"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "coin",
+    "value" : "'ize'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ee65356e7c92580.json",
+  "parameterValues" : [ "'ize'" ]
+}
