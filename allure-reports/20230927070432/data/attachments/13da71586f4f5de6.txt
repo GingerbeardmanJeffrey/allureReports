@@ -1,0 +1,17 @@
+INFO     root:conftest.py:201 === Starting api_response_conditions_negative_400 Test (Negative) ===
+INFO     root:conftest.py:202 API Response: 400 | {
+  "error": {
+    "code": 400,
+    "message": "INVALID_CUSTOM_TOKEN : Invalid assertion format. 3 dot separated segments required.",
+    "errors": [
+      {
+        "message": "INVALID_CUSTOM_TOKEN : Invalid assertion format. 3 dot separated segments required.",
+        "domain": "global",
+        "reason": "invalid"
+      }
+    ]
+  }
+}
+
+INFO     root:conftest.py:211 Test 'api_response_conditions_negative_400' (Negative) SUCCESS.
+INFO     root:conftest.py:212 === Ending api_response_conditions_negative_400 Test (Negative) ===
