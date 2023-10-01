@@ -1,0 +1,28 @@
+INFO     root:conftest.py:201 === Starting api_response_conditions_negative_400 Test (Negative) ===
+INFO     root:conftest.py:202 API Response: 400 | {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "errors": [
+      {
+        "message": "API key not valid. Please pass a valid API key.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "identitytoolkit.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+INFO     root:conftest.py:211 Test 'api_response_conditions_negative_400' (Negative) SUCCESS.
+INFO     root:conftest.py:212 === Ending api_response_conditions_negative_400 Test (Negative) ===
