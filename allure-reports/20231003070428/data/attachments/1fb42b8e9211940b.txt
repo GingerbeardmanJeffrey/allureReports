@@ -1,0 +1,4 @@
+INFO     root:conftest.py:211 === Starting api_response_conditions_negative_400 Test (Negative) ===
+INFO     root:conftest.py:212 API Response: 400 | {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-3936a4716921e63c328555d14924774f-b41ded70096ba3fb-00","errors":{"request":["The request field is required."],"$.products[0].quantity":["The JSON value could not be converted to System.Int32. Path: $.products[0].quantity | LineNumber: 0 | BytePositionInLine: 70."]}}
+INFO     root:conftest.py:221 Test 'api_response_conditions_negative_400' (Negative) SUCCESS.
+INFO     root:conftest.py:222 === Ending api_response_conditions_negative_400 Test (Negative) ===
