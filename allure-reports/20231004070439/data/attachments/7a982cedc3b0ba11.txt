@@ -1,0 +1,4 @@
+INFO     root:conftest.py:211 === Starting api_response_conditions_negative_400 Test (Negative) ===
+INFO     root:conftest.py:212 API Response: 400 | {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-fb120b5c20657628fa407360604b3151-272e4ee770ddfaac-00","errors":{"request":["The request field is required."],"$.paymentMethod":["The JSON value could not be converted to Nerd.Shopping.ApiContract.CreateInvoiceRequest. Path: $.paymentMethod | LineNumber: 0 | BytePositionInLine: 24."]}}
+INFO     root:conftest.py:221 Test 'api_response_conditions_negative_400' (Negative) SUCCESS.
+INFO     root:conftest.py:222 === Ending api_response_conditions_negative_400 Test (Negative) ===
