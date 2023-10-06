@@ -1,0 +1,69 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed: Timeout >10.0s",
+      "children" : [ {
+        "name" : "test_get_transactions",
+        "uid" : "76e0a6bfe8f0ffcd",
+        "parentUid" : "a6238fb0a78458819efd786ffa02621d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1696575930415,
+          "stop" : 1696575940415,
+          "duration" : 10000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_transactions_token[eth]",
+        "uid" : "9574444f5e4e12ae",
+        "parentUid" : "a6238fb0a78458819efd786ffa02621d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1696575940548,
+          "stop" : 1696575950548,
+          "duration" : 10000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'eth'" ]
+      }, {
+        "name" : "test_get_transactions_token[ize]",
+        "uid" : "8c35ad30976e7be1",
+        "parentUid" : "a6238fb0a78458819efd786ffa02621d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1696575950672,
+          "stop" : 1696575960672,
+          "duration" : 10000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ize'" ]
+      } ],
+      "uid" : "a6238fb0a78458819efd786ffa02621d"
+    }, {
+      "name" : "AssertionError: API response status code: 500\nassert 500 in [200, 201, 202, 203, 204, 205]\n +  where 500 = <Response [500]>.status_code",
+      "children" : [ {
+        "name" : "test_get_balance",
+        "uid" : "493de2a4e8470718",
+        "parentUid" : "a7210480259d404eab521b8b7384884c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1696575976863,
+          "stop" : 1696575977225,
+          "duration" : 362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7210480259d404eab521b8b7384884c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
