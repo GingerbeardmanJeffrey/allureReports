@@ -1,0 +1,114 @@
+{
+  "uid" : "cfcb05b4d3e3210e",
+  "name" : "test_membership_health_check",
+  "fullName" : "tests.test_api_health_check#test_membership_health_check",
+  "historyId" : "a6c1c7d0659e3fe494c273418c0cb928",
+  "time" : {
+    "start" : 1699081539965,
+    "stop" : 1699081540254,
+    "duration" : 289
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "environment",
+    "time" : {
+      "start" : 1699081539964,
+      "stop" : 1699081539965,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1699081539965,
+      "stop" : 1699081539965,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1699081539965,
+      "stop" : 1699081539965,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d109b1d5618b573a",
+      "name" : "log",
+      "source" : "d109b1d5618b573a.txt",
+      "type" : "text/plain",
+      "size" : 376
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_health_check"
+  }, {
+    "name" : "host",
+    "value" : "fv-az565-977"
+  }, {
+    "name" : "thread",
+    "value" : "1761-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_health_check"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cfcb05b4d3e3210e.json",
+  "parameterValues" : [ ]
+}
