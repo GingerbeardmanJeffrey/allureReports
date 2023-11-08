@@ -1,0 +1,118 @@
+{
+  "uid" : "f2b1d1351767ed3a",
+  "name" : "test_get_list_distributions",
+  "fullName" : "tests.test_api_distribution#test_get_list_distributions",
+  "historyId" : "029f09ba9b3eb5a76a837a87559e7930",
+  "time" : {
+    "start" : 1699427079299,
+    "stop" : 1699427079299,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Throws a 500 error.",
+  "statusTrace" : "('/home/runner/work/qa-nerd-core-backend/qa-nerd-core-backend/tests/test_api_distribution.py', 10, 'Skipped: Throws a 500 error.')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1699427079303,
+      "stop" : 1699427079303,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1699427079303,
+      "stop" : 1699427079303,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1699427079303,
+      "stop" : 1699427079303,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1699427079303,
+      "stop" : 1699427079303,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='Throws a 500 error.')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_distribution"
+  }, {
+    "name" : "host",
+    "value" : "fv-az612-550"
+  }, {
+    "name" : "thread",
+    "value" : "1921-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_distribution"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='Throws a 500 error.')" ]
+  },
+  "source" : "f2b1d1351767ed3a.json",
+  "parameterValues" : [ ]
+}
