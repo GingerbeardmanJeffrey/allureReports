@@ -1,0 +1,119 @@
+{
+  "uid" : "9823512eb31730d3",
+  "name" : "test_verify_email",
+  "fullName" : "tests.test_new_user_flow#test_verify_email",
+  "historyId" : "962155b581564e3d420dd5ea1be2c57f",
+  "time" : {
+    "start" : 1699513487099,
+    "stop" : 1699513487099,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'verification_code' is not defined",
+  "statusTrace" : "base_url = 'https://api.dev.nerdunited.net', api_version = '/api'\nconfig = <module 'config' from '/home/runner/work/qa-nerd-core-backend/qa-nerd-core-backend/config.py'>\n\n    def test_verify_email(base_url, api_version, config):\n        global verification_code\n        url = f\"{base_url}{config.MEMBERSHIP_URL}{api_version}/members/verification-email/confirm\"\n>       data = {\"confirmationCode\": f\"{verification_code}\"}\nE       NameError: name 'verification_code' is not defined\n\ntests/test_new_user_flow.py:79: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "config",
+    "time" : {
+      "start" : 1699513486860,
+      "stop" : 1699513486860,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1699513486860,
+      "stop" : 1699513486860,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1699513487076,
+      "stop" : 1699513487076,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1699513487076,
+      "stop" : 1699513487076,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_new_user_flow"
+  }, {
+    "name" : "host",
+    "value" : "fv-az455-587"
+  }, {
+    "name" : "thread",
+    "value" : "1899-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_new_user_flow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9823512eb31730d3.json",
+  "parameterValues" : [ ]
+}

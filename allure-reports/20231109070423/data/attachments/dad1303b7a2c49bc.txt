@@ -1,0 +1,26 @@
+INFO     root:conftest.py:208 === Starting test_negative_login_step3_invalid_token Test (Negative) ===
+INFO     root:conftest.py:209 API Response: 401 | {
+  "error": {
+    "code": 401,
+    "message": "Firebase App Check token is invalid.",
+    "errors": [
+      {
+        "message": "Firebase App Check token is invalid.",
+        "domain": "global",
+        "reason": "unauthorized"
+      }
+    ],
+    "status": "UNAUTHENTICATED"
+  }
+}
+
+INFO     root:conftest.py:214 Test 'test_negative_login_step3_invalid_token' (Negative) FAILED.
+ERROR    root:conftest.py:215 API response status code: 401
+assert 401 in [400]
+ +  where 401 = <Response [401]>.status_code
+Traceback (most recent call last):
+  File "/home/runner/work/qa-nerd-core-backend/qa-nerd-core-backend/conftest.py", line 212, in negative_test
+    assert response.status_code in expected_status_code, f"API response status code: {response.status_code}"
+AssertionError: API response status code: 401
+assert 401 in [400]
+ +  where 401 = <Response [401]>.status_code
