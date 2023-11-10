@@ -1,0 +1,118 @@
+{
+  "uid" : "ce22c587368a614b",
+  "name" : "test_post_run_distribution_for_date",
+  "fullName" : "tests.test_api_distribution#test_post_run_distribution_for_date",
+  "historyId" : "7a49778ea6a40e9e2b00af3a043cf457",
+  "time" : {
+    "start" : 1699599881229,
+    "stop" : 1699599881229,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: QA-385.  Posts and Admin tests need to be approved for automation before we can make them live",
+  "statusTrace" : "('/home/runner/work/qa-nerd-core-backend/qa-nerd-core-backend/tests/test_api_distribution.py', 52, 'Skipped: QA-385.  Posts and Admin tests need to be approved for automation before we can make them live')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "environment",
+    "time" : {
+      "start" : 1699599880864,
+      "stop" : 1699599880865,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1699599880865,
+      "stop" : 1699599880865,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1699599880865,
+      "stop" : 1699599880865,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1699599880865,
+      "stop" : 1699599880865,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='QA-385.  Posts and Admin tests need to be approved for automation before we can make them live')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_distribution"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1102-775"
+  }, {
+    "name" : "thread",
+    "value" : "1756-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_distribution"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='QA-385.  Posts and Admin tests need to be approved for automation before we can make them live')" ]
+  },
+  "source" : "ce22c587368a614b.json",
+  "parameterValues" : [ ]
+}
