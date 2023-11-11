@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed: Timeout >10.0s",
+      "children" : [ {
+        "name" : "test_post_create_reward",
+        "uid" : "79f2e087fa9ba654",
+        "parentUid" : "a6238fb0a78458819efd786ffa02621d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1699686324131,
+          "stop" : 1699686334148,
+          "duration" : 10017
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6238fb0a78458819efd786ffa02621d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "NameError: name 'reward_id' is not defined",
+      "children" : [ {
+        "name" : "test_patch_reward",
+        "uid" : "157efc9aa7f8add8",
+        "parentUid" : "ea2c678e4948b35084afd593bfac5137",
+        "status" : "broken",
+        "time" : {
+          "start" : 1699686334276,
+          "stop" : 1699686334277,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_reward",
+        "uid" : "8648ac6d8daa9b59",
+        "parentUid" : "ea2c678e4948b35084afd593bfac5137",
+        "status" : "broken",
+        "time" : {
+          "start" : 1699686334283,
+          "stop" : 1699686334283,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_reward",
+        "uid" : "bc427da3109905b2",
+        "parentUid" : "ea2c678e4948b35084afd593bfac5137",
+        "status" : "broken",
+        "time" : {
+          "start" : 1699686334704,
+          "stop" : 1699686334704,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ea2c678e4948b35084afd593bfac5137"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
