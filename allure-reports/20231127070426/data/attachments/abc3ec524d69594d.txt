@@ -1,0 +1,4 @@
+INFO     root:conftest.py:184 === Starting test_feature_flags Test ===
+INFO     root:conftest.py:185 API Response: 200 | [{"feature":"Rewards.Offers.Show","isEnabled":true},{"feature":"Membership.Signup.RestrictToReferral","isEnabled":false},{"feature":"ShowBridge","isEnabled":true},{"feature":"ShowSwitchPay","isEnabled":true},{"feature":"HasERC20Contract","isEnabled":true},{"feature":"ShowStripe","isEnabled":true},{"feature":"HasLegacyWallet","isEnabled":true},{"feature":"UseCustomCoupons","isEnabled":true},{"feature":"Membership.Authentication.UseEmail2fa","isEnabled":false}]
+INFO     root:conftest.py:195 Test 'test_feature_flags' SUCCESS.
+INFO     root:conftest.py:196 === Ending test_feature_flags Test ===

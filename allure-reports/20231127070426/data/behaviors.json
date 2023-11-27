@@ -1,0 +1,2566 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "test_unsigned_agreements",
+    "uid" : "4124d61e40dda80",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068672588,
+      "stop" : 1701068673036,
+      "duration" : 448
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_create_agreement",
+    "uid" : "75476b3e114bd863",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1701068673039,
+      "stop" : 1701068673383,
+      "duration" : 344
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_agreement_by_id",
+    "uid" : "91814bad42378241",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1701068673412,
+      "stop" : 1701068673413,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_delete_agreement",
+    "uid" : "4df0c55fe3bed839",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1701068673417,
+      "stop" : 1701068673417,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_create_agreement",
+    "uid" : "3b8a08e63ea2c7cc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068674167,
+      "stop" : 1701068674453,
+      "duration" : 286
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_agreement_by_id",
+    "uid" : "a7c402c67a93b647",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068674456,
+      "stop" : 1701068674744,
+      "duration" : 288
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_delete_agreement",
+    "uid" : "540f35da0dd05eb2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068674747,
+      "stop" : 1701068675038,
+      "duration" : 291
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_generate_code",
+    "uid" : "8a30a82776cc7ae3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068675726,
+      "stop" : 1701068676080,
+      "duration" : 354
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_auth_token",
+    "uid" : "92776ac3efb40394",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068676083,
+      "stop" : 1701068676764,
+      "duration" : 681
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_add_cart_item",
+    "uid" : "df7b20c499e304",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068677804,
+      "stop" : 1701068678142,
+      "duration" : 338
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_delete_item_from_cart",
+    "uid" : "64f68f31b82dd12f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068678146,
+      "stop" : 1701068678757,
+      "duration" : 611
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_delete_cart_items",
+    "uid" : "560c40dc298cab1c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068678760,
+      "stop" : 1701068679097,
+      "duration" : 337
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_cart",
+    "uid" : "b7f9e88691ddb428",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068679099,
+      "stop" : 1701068679410,
+      "duration" : 311
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_list_distributions",
+    "uid" : "28d69de8bbcf4eee",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068679411,
+      "stop" : 1701068679411,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_distributor_status",
+    "uid" : "2106bbba53117176",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068679415,
+      "stop" : 1701068679717,
+      "duration" : 302
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_import_members_as_of_date",
+    "uid" : "20b4d61c1603b82",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068679718,
+      "stop" : 1701068679718,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_import_licenses",
+    "uid" : "7d89891e2046ed56",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068679720,
+      "stop" : 1701068679720,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_import_orders_for_date",
+    "uid" : "afd454b8384120fb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068679722,
+      "stop" : 1701068679722,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_import_mining_records",
+    "uid" : "e1facb36a5c35a9f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068679723,
+      "stop" : 1701068679723,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_run_distribution_for_date",
+    "uid" : "6f886029495633d9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068679724,
+      "stop" : 1701068679724,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_publish_actions",
+    "uid" : "777bec9152d0e60f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068679726,
+      "stop" : 1701068679726,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_distribute_rewards_win",
+    "uid" : "fbbe1a97fcbaa29f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068679727,
+      "stop" : 1701068679727,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_admin_migrate",
+    "uid" : "ac37ae49c527179d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068679728,
+      "stop" : 1701068679728,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_admin_seed",
+    "uid" : "f66a7218108e0164",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068679730,
+      "stop" : 1701068679730,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_admin_import_license_types",
+    "uid" : "fba958386fee374c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068679731,
+      "stop" : 1701068679731,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_admin_import_products",
+    "uid" : "e1b84ae786feb2da",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068679733,
+      "stop" : 1701068679733,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_admin_add_partners",
+    "uid" : "937b1701cfba703e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068679734,
+      "stop" : 1701068679734,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_delete_distribution",
+    "uid" : "8b8105b0de256f08",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068679735,
+      "stop" : 1701068679735,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_token_price[eth]",
+    "uid" : "8f08373b828b123a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068680485,
+      "stop" : 1701068680987,
+      "duration" : 502
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'eth'" ]
+  }, {
+    "name" : "test_get_token_price[ize]",
+    "uid" : "711bf49a64a64511",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068680990,
+      "stop" : 1701068681601,
+      "duration" : 611
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'ize'" ]
+  }, {
+    "name" : "test_get_token_price[btc]",
+    "uid" : "6376f93aee484b4d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068681604,
+      "stop" : 1701068682145,
+      "duration" : 541
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'btc'" ]
+  }, {
+    "name" : "test_get_token_price[usdc]",
+    "uid" : "92c46937c2b0e5d4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068682148,
+      "stop" : 1701068682569,
+      "duration" : 421
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'usdc'" ]
+  }, {
+    "name" : "test_feature_flags",
+    "uid" : "bb4d54806fd2a3ee",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068682572,
+      "stop" : 1701068682844,
+      "duration" : 272
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_feature_flags_enabled",
+    "uid" : "f37949f3378b995d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068682846,
+      "stop" : 1701068683178,
+      "duration" : 332
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_coin_market_cap[eth]",
+    "uid" : "481a7516854f1c10",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068683181,
+      "stop" : 1701068683488,
+      "duration" : 307
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'eth'" ]
+  }, {
+    "name" : "test_coin_market_cap[ize]",
+    "uid" : "733060405ff0008a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068683490,
+      "stop" : 1701068683761,
+      "duration" : 271
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'ize'" ]
+  }, {
+    "name" : "test_coin_market_cap[btc]",
+    "uid" : "5a866e255c4f76b4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068683764,
+      "stop" : 1701068684028,
+      "duration" : 264
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'btc'" ]
+  }, {
+    "name" : "test_coin_market_cap[usdc]",
+    "uid" : "8bbbe9745edf4f9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068684031,
+      "stop" : 1701068684221,
+      "duration" : 190
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'usdc'" ]
+  }, {
+    "name" : "test_membership_health_check",
+    "uid" : "eb41b5835d11fd37",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068684225,
+      "stop" : 1701068684498,
+      "duration" : 273
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_messaging_health_check",
+    "uid" : "518a88f770d64cf4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068684500,
+      "stop" : 1701068684769,
+      "duration" : 269
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_ethconnect_health_check",
+    "uid" : "afebc220fd74710d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068684771,
+      "stop" : 1701068685060,
+      "duration" : 289
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_shopping_health_check",
+    "uid" : "97883abd73583284",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068685062,
+      "stop" : 1701068685382,
+      "duration" : 320
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_wallet_health_check",
+    "uid" : "9bbbaa1d87c1aef5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068685384,
+      "stop" : 1701068685709,
+      "duration" : 325
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_licenses_health_check",
+    "uid" : "4967a5af8e4d7e85",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068685711,
+      "stop" : 1701068686011,
+      "duration" : 300
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_distributor_health_check",
+    "uid" : "ad7138f365e76787",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068686014,
+      "stop" : 1701068686300,
+      "duration" : 286
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_create_invoice",
+    "uid" : "594bebe4d259519d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068687304,
+      "stop" : 1701068687955,
+      "duration" : 651
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_pay_invoice_no_token",
+    "uid" : "d026133d3e571ac2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068687958,
+      "stop" : 1701068688226,
+      "duration" : 268
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_pay_invalid_invoice",
+    "uid" : "166c2c40071fb428",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068688229,
+      "stop" : 1701068688547,
+      "duration" : 318
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_pay_invoice_invalid_wallet_password",
+    "uid" : "1f96190c0192e99",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068688549,
+      "stop" : 1701068689177,
+      "duration" : 628
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_pay_invoice_invalid_coin_symbol",
+    "uid" : "ae06dcb733ab8298",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068689180,
+      "stop" : 1701068689481,
+      "duration" : 301
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_pay_invoice",
+    "uid" : "73c4bcd100841631",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068689483,
+      "stop" : 1701068691503,
+      "duration" : 2020
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_invoice",
+    "uid" : "f0c5a35cc8cc36fc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068691505,
+      "stop" : 1701068691841,
+      "duration" : 336
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_add_shipment",
+    "uid" : "e2b6742057159cbe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068691844,
+      "stop" : 1701068692150,
+      "duration" : 306
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_shipment",
+    "uid" : "116da2a8ce42255d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068692153,
+      "stop" : 1701068692443,
+      "duration" : 290
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_low_stock_alert",
+    "uid" : "7fc1a39653f689e0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068692445,
+      "stop" : 1701068692999,
+      "duration" : 554
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_expired_invoices",
+    "uid" : "15cf5fcecb108a78",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068693001,
+      "stop" : 1701068693336,
+      "duration" : 335
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_create_cancel_invoice",
+    "uid" : "8f8aa8973ce6d755",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068693339,
+      "stop" : 1701068693732,
+      "duration" : 393
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_cancel_invoice",
+    "uid" : "aef202c324858242",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068693735,
+      "stop" : 1701068694347,
+      "duration" : 612
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_create_invoice_no_token",
+    "uid" : "c1905d6f3647b537",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068694350,
+      "stop" : 1701068694656,
+      "duration" : 306
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_create_invoice_invalid_product",
+    "uid" : "c0da24370d18fe22",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068694658,
+      "stop" : 1701068695002,
+      "duration" : 344
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_create_invoice_null_quantity",
+    "uid" : "680d000c72113c40",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068695005,
+      "stop" : 1701068695289,
+      "duration" : 284
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_create_invoice_invalid_payment_method",
+    "uid" : "c46e78881cfc2f8d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068695292,
+      "stop" : 1701068695650,
+      "duration" : 358
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_create_invoice_null_payment_method",
+    "uid" : "586178589d11bbbf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068695652,
+      "stop" : 1701068695945,
+      "duration" : 293
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_get_invoice_invalid_id",
+    "uid" : "18112b3b456aaa29",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068695947,
+      "stop" : 1701068696275,
+      "duration" : 328
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_get_invoice_no_token",
+    "uid" : "a5e1910a23ab7b38",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068696277,
+      "stop" : 1701068696548,
+      "duration" : 271
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_add_shipment_no_token",
+    "uid" : "debf56494b276fa1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068696550,
+      "stop" : 1701068696857,
+      "duration" : 307
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_add_shipment_invalid_invoice",
+    "uid" : "cf879210c06de95a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068696860,
+      "stop" : 1701068697159,
+      "duration" : 299
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_add_shipment_duplicate_shipment",
+    "uid" : "fcaa189d25319a01",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068697162,
+      "stop" : 1701068697507,
+      "duration" : 345
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_add_shipment_no_data",
+    "uid" : "1b4325c5118d33d2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068697510,
+      "stop" : 1701068697791,
+      "duration" : 281
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_chain_total_points",
+    "uid" : "6d85794fcbbcc3bc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068698483,
+      "stop" : 1701068699042,
+      "duration" : 559
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_total_rewards",
+    "uid" : "7041788f55cc0ead",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068699045,
+      "stop" : 1701068699459,
+      "duration" : 414
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_all_charters",
+    "uid" : "bd9eb35feddc9c11",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068699462,
+      "stop" : 1701068699887,
+      "duration" : 425
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_user_votes",
+    "uid" : "478b300135b18252",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068699889,
+      "stop" : 1701068700306,
+      "duration" : 417
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_licenses",
+    "uid" : "1c96c5a2ad22fe2d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068701025,
+      "stop" : 1701068701579,
+      "duration" : 554
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_licenses_for_invoice",
+    "uid" : "2f4afc1d14aad99d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068701582,
+      "stop" : 1701068701885,
+      "duration" : 303
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_license_types",
+    "uid" : "58fdd62588e8395d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068701887,
+      "stop" : 1701068702188,
+      "duration" : 301
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_member_licenses",
+    "uid" : "bbc398d2dc0cc405",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068702190,
+      "stop" : 1701068702467,
+      "duration" : 277
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_get_licenses_no_token",
+    "uid" : "ee139c2883926f9b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068702469,
+      "stop" : 1701068702745,
+      "duration" : 276
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_get_licenses_for_invoice_no_auth",
+    "uid" : "3529d9a7e5ca736b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068702748,
+      "stop" : 1701068703064,
+      "duration" : 316
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_get_licenses_for_no_invoice",
+    "uid" : "3329a6a0720398e8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068703067,
+      "stop" : 1701068703337,
+      "duration" : 270
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_get_member_licenses_for_invalid_id",
+    "uid" : "b58435794084ec03",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068703339,
+      "stop" : 1701068703638,
+      "duration" : 299
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_get_member_licenses_invalid_key",
+    "uid" : "3ee316512c23819f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068703640,
+      "stop" : 1701068703908,
+      "duration" : 268
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_get_member_licenses_invalid_license",
+    "uid" : "402d6fa16382198",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068703910,
+      "stop" : 1701068704236,
+      "duration" : 326
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login_step1",
+    "uid" : "aecd184698b89781",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068704238,
+      "stop" : 1701068704473,
+      "duration" : 235
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login_step2",
+    "uid" : "b388308d30be2034",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068704475,
+      "stop" : 1701068704876,
+      "duration" : 401
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login_step3",
+    "uid" : "77283a0ada840a7f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068704878,
+      "stop" : 1701068705099,
+      "duration" : 221
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_sigin_invalid_credentials_500",
+    "uid" : "c064cfb0b10637f1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068705102,
+      "stop" : 1701068705502,
+      "duration" : 400
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_login_step1_invalid_token",
+    "uid" : "b18333cdc9ace218",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068705504,
+      "stop" : 1701068705663,
+      "duration" : 159
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_login_step1_invalid_creds",
+    "uid" : "720468e9a81560bf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068705665,
+      "stop" : 1701068705864,
+      "duration" : 199
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_login_step2_invalid_token",
+    "uid" : "8839d4cf1e16865c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068705866,
+      "stop" : 1701068706154,
+      "duration" : 288
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_login_step3_invalid_key",
+    "uid" : "708efacffa931ab8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068706156,
+      "stop" : 1701068706316,
+      "duration" : 160
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_login_step3_invalid_token",
+    "uid" : "f5530af53bd638eb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068706319,
+      "stop" : 1701068706510,
+      "duration" : 191
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_all_member_preferences",
+    "uid" : "40ee4b5a07102b1b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068707227,
+      "stop" : 1701068707550,
+      "duration" : 323
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_create_member_preference",
+    "uid" : "80b119f832a2b5ae",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068707553,
+      "stop" : 1701068707841,
+      "duration" : 288
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_member_preferences_by_id",
+    "uid" : "830239627edff99f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068707844,
+      "stop" : 1701068708124,
+      "duration" : 280
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_get_member_preferences_by_id",
+    "uid" : "34c50421ce9eace6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068708773,
+      "stop" : 1701068709083,
+      "duration" : 310
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_delete_member_preference",
+    "uid" : "aeef0cc57ab55049",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068709085,
+      "stop" : 1701068709388,
+      "duration" : 303
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_delete_member_preference",
+    "uid" : "65895a9ae18449f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068709390,
+      "stop" : 1701068709686,
+      "duration" : 296
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_update_member",
+    "uid" : "d8738c21fef6e960",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068710375,
+      "stop" : 1701068710804,
+      "duration" : 429
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_member_details",
+    "uid" : "4531a75230c0674b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068710806,
+      "stop" : 1701068711147,
+      "duration" : 341
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_display_name_exists",
+    "uid" : "d62faca23151de9d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068711150,
+      "stop" : 1701068711444,
+      "duration" : 294
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_delete_profile_picture",
+    "uid" : "f359f3fe210dc0d2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068711447,
+      "stop" : 1701068711723,
+      "duration" : 276
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_member_referrals",
+    "uid" : "ec4654a353405bdf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068711725,
+      "stop" : 1701068712030,
+      "duration" : 305
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_all_affiliates",
+    "uid" : "3e5785e17f6cc636",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068712032,
+      "stop" : 1701068712333,
+      "duration" : 301
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_create_affiliates",
+    "uid" : "7e9d6fc2ac3466e7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068712336,
+      "stop" : 1701068712618,
+      "duration" : 282
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_affiliate",
+    "uid" : "d58eaba7756f06d7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068712621,
+      "stop" : 1701068712902,
+      "duration" : 281
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_chain_total_points",
+    "uid" : "e0719b619abb5456",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068712904,
+      "stop" : 1701068713312,
+      "duration" : 408
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_chain_total_rewards",
+    "uid" : "9162eee63f50f390",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068713315,
+      "stop" : 1701068713718,
+      "duration" : 403
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_email_template",
+    "uid" : "11d01b7749ddc6a7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068713722,
+      "stop" : 1701068714025,
+      "duration" : 303
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_send_email",
+    "uid" : "e1cd2db65b2e53fe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068714028,
+      "stop" : 1701068714444,
+      "duration" : 416
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_create_product",
+    "uid" : "a2da57773c3cb230",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068715146,
+      "stop" : 1701068715472,
+      "duration" : 326
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_products",
+    "uid" : "6163c87ca1438b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068715475,
+      "stop" : 1701068715801,
+      "duration" : 326
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_create_product_price_tiers",
+    "uid" : "39c0585b116a979f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068715803,
+      "stop" : 1701068716085,
+      "duration" : 282
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_product_price_tiers",
+    "uid" : "c5723c40160a0430",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068716087,
+      "stop" : 1701068716364,
+      "duration" : 277
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_product_categories",
+    "uid" : "48e62ae0da075fe3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068716366,
+      "stop" : 1701068716648,
+      "duration" : 282
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_delete_product",
+    "uid" : "1b3991622f4e7440",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068716651,
+      "stop" : 1701068716980,
+      "duration" : 329
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_campaigns",
+    "uid" : "521df6299c0a7389",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068717749,
+      "stop" : 1701068718053,
+      "duration" : 304
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_create_campaigns",
+    "uid" : "1b68eeec4ebaf63c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068718056,
+      "stop" : 1701068718350,
+      "duration" : 294
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_campaign_by_id",
+    "uid" : "281671ea2d9177eb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068718353,
+      "stop" : 1701068718632,
+      "duration" : 279
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_update_campaign",
+    "uid" : "8e56543e13fbced3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068718634,
+      "stop" : 1701068718634,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_member_campaigns",
+    "uid" : "a3f28f36f030aa40",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068718637,
+      "stop" : 1701068718923,
+      "duration" : 286
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_create_promotion",
+    "uid" : "f13be8e8a78a560e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068718926,
+      "stop" : 1701068719227,
+      "duration" : 301
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_patch_promotion",
+    "uid" : "6dc6f934255a3f55",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1701068719230,
+      "stop" : 1701068719505,
+      "duration" : 275
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_promotions",
+    "uid" : "deca231287e1ff92",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068719523,
+      "stop" : 1701068719816,
+      "duration" : 293
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_promotion",
+    "uid" : "f1f970dc3b1a8a8f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068719819,
+      "stop" : 1701068720126,
+      "duration" : 307
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_rewards_types",
+    "uid" : "b08aaeb61b1cf393",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068720128,
+      "stop" : 1701068720400,
+      "duration" : 272
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_rewards",
+    "uid" : "14e0473107ce488a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068720402,
+      "stop" : 1701068720683,
+      "duration" : 281
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_create_reward",
+    "uid" : "465bcd4ef4e3657a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068720686,
+      "stop" : 1701068720975,
+      "duration" : 289
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_patch_reward",
+    "uid" : "c8bbcfe7fcc69914",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068720978,
+      "stop" : 1701068721286,
+      "duration" : 308
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_reward",
+    "uid" : "9b477c077e949302",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068721288,
+      "stop" : 1701068721590,
+      "duration" : 302
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_action_types",
+    "uid" : "b7584dee181f8a2a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068721592,
+      "stop" : 1701068721893,
+      "duration" : 301
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_create_requirement",
+    "uid" : "2c32ecc0f707add7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068721896,
+      "stop" : 1701068722187,
+      "duration" : 291
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_patch_requirement",
+    "uid" : "bd400e4eec3c4dd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068722190,
+      "stop" : 1701068722503,
+      "duration" : 313
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_requirements",
+    "uid" : "4314ed50f185241",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068722508,
+      "stop" : 1701068722783,
+      "duration" : 275
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_requirement",
+    "uid" : "f69c884f305c78b3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068722785,
+      "stop" : 1701068723122,
+      "duration" : 337
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_publish_campaign",
+    "uid" : "648333a9c960f7b4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068723123,
+      "stop" : 1701068723123,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_publish_promotion",
+    "uid" : "58025da72ffc6ef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068723126,
+      "stop" : 1701068723126,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_mark_member_reward_as_viewed",
+    "uid" : "2dcb729d45e4dc88",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068723129,
+      "stop" : 1701068723409,
+      "duration" : 280
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_delete_reward",
+    "uid" : "6ef783b21a4c8597",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068723412,
+      "stop" : 1701068723733,
+      "duration" : 321
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_delete_requirement",
+    "uid" : "43beee6e20a64b4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068723736,
+      "stop" : 1701068724071,
+      "duration" : 335
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_delete_promotion",
+    "uid" : "f8dd5d473e775392",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068724073,
+      "stop" : 1701068724357,
+      "duration" : 284
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_delete_campaign_by_id",
+    "uid" : "1bbfa90ad8ce4827",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068724360,
+      "stop" : 1701068724668,
+      "duration" : 308
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_archive_promotion",
+    "uid" : "c76d3564fa2f243c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068724670,
+      "stop" : 1701068724670,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_archive_campaign",
+    "uid" : "68c1c41cabd3ae67",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068724671,
+      "stop" : 1701068724671,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_a_role",
+    "uid" : "3152e04f30e15b68",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068725427,
+      "stop" : 1701068725720,
+      "duration" : 293
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_roles",
+    "uid" : "9a864112fc95fa2a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068725722,
+      "stop" : 1701068726159,
+      "duration" : 437
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_create_a_role",
+    "uid" : "fbdee66b23da29b0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068726161,
+      "stop" : 1701068726448,
+      "duration" : 287
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_delete_a_role",
+    "uid" : "3b4e298121f87df3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068726450,
+      "stop" : 1701068726747,
+      "duration" : 297
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_create_eth_invoice_partners",
+    "uid" : "68fff685906e6900",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068727529,
+      "stop" : 1701068727874,
+      "duration" : 345
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_cancel_eth_invoice",
+    "uid" : "908c63983c14afaa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068727877,
+      "stop" : 1701068728168,
+      "duration" : 291
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_create_usd_invoice_partners",
+    "uid" : "1ee7dee35b14eb38",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068728171,
+      "stop" : 1701068728495,
+      "duration" : 324
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_cancel_usd_invoice",
+    "uid" : "d0a82b114f5634dd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068728498,
+      "stop" : 1701068728818,
+      "duration" : 320
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_low_stock_alert",
+    "uid" : "6bba06a8fbad955e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068728821,
+      "stop" : 1701068729129,
+      "duration" : 308
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_expired_invoices",
+    "uid" : "9f4553655e256274",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068729131,
+      "stop" : 1701068729467,
+      "duration" : 336
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_switchplay_session",
+    "uid" : "354df146d863efed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068729469,
+      "stop" : 1701068729932,
+      "duration" : 463
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_purchase_summary",
+    "uid" : "b33dedd3e618f6ce",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068729935,
+      "stop" : 1701068730330,
+      "duration" : 395
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_mnemonic",
+    "uid" : "29eca43c191907af",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068731017,
+      "stop" : 1701068731315,
+      "duration" : 298
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_wallet[eth]",
+    "uid" : "a09570ed511d9982",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068731318,
+      "stop" : 1701068731910,
+      "duration" : 592
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'eth'" ]
+  }, {
+    "name" : "test_get_wallet[ize]",
+    "uid" : "e1c6325d71638524",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068731913,
+      "stop" : 1701068732541,
+      "duration" : 628
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'ize'" ]
+  }, {
+    "name" : "test_get_wallet[btc]",
+    "uid" : "1119954a74a1fa4f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068732544,
+      "stop" : 1701068733193,
+      "duration" : 649
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'btc'" ]
+  }, {
+    "name" : "test_get_wallet[usdc]",
+    "uid" : "3fa028e471b22876",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068733196,
+      "stop" : 1701068733777,
+      "duration" : 581
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'usdc'" ]
+  }, {
+    "name" : "test_get_transactions",
+    "uid" : "ebe29901fd5471ea",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068733780,
+      "stop" : 1701068736287,
+      "duration" : 2507
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_transactions_token[eth]",
+    "uid" : "701eccda57275690",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068736290,
+      "stop" : 1701068743171,
+      "duration" : 6881
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'eth'" ]
+  }, {
+    "name" : "test_get_transactions_token[ize]",
+    "uid" : "95ea37569a38d8ae",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068743175,
+      "stop" : 1701068749890,
+      "duration" : 6715
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'ize'" ]
+  }, {
+    "name" : "test_get_transactions_token[btc]",
+    "uid" : "1fc2698e26fb9de2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068749893,
+      "stop" : 1701068756536,
+      "duration" : 6643
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'btc'" ]
+  }, {
+    "name" : "test_get_transactions_token[usdc]",
+    "uid" : "17c71bc9a31b05c0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068756539,
+      "stop" : 1701068763236,
+      "duration" : 6697
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'usdc'" ]
+  }, {
+    "name" : "test_get_gas_fee[eth]",
+    "uid" : "ac4068bef14e9970",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068763239,
+      "stop" : 1701068763972,
+      "duration" : 733
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'eth'" ]
+  }, {
+    "name" : "test_get_gas_fee[ize]",
+    "uid" : "9edc750331abf264",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068763975,
+      "stop" : 1701068765036,
+      "duration" : 1061
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'ize'" ]
+  }, {
+    "name" : "test_get_gas_fee[usdc]",
+    "uid" : "8875505c48b89652",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068765039,
+      "stop" : 1701068766143,
+      "duration" : 1104
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'usdc'" ]
+  }, {
+    "name" : "test_get_balance",
+    "uid" : "9abdb525e06fc911",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1701068766145,
+      "stop" : 1701068766145,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_payment_address[eth]",
+    "uid" : "517caa9a3e5ffe60",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068766148,
+      "stop" : 1701068766471,
+      "duration" : 323
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'eth'" ]
+  }, {
+    "name" : "test_get_payment_address[ize]",
+    "uid" : "f66ad3fcd588c80d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068766474,
+      "stop" : 1701068766799,
+      "duration" : 325
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'ize'" ]
+  }, {
+    "name" : "test_get_payment_address[usdc]",
+    "uid" : "2d5e73f6c4dd02bf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068766802,
+      "stop" : 1701068767093,
+      "duration" : 291
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'usdc'" ]
+  }, {
+    "name" : "test_get_erc20_config",
+    "uid" : "da42ab42869354a6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068767096,
+      "stop" : 1701068767391,
+      "duration" : 295
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_erc20_allow_purchase",
+    "uid" : "7795fdab68f49d34",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068767393,
+      "stop" : 1701068767717,
+      "duration" : 324
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_rewards",
+    "uid" : "6b5b88d92dcb7ee2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068767719,
+      "stop" : 1701068768058,
+      "duration" : 339
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_rewards_summary",
+    "uid" : "44455ce21a0f2ab3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068768060,
+      "stop" : 1701068768389,
+      "duration" : 329
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_get_mnemonic_no_token",
+    "uid" : "311b31ea31ae57b5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068768391,
+      "stop" : 1701068768667,
+      "duration" : 276
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_get_wallet_invalid_coin",
+    "uid" : "591a051988767ed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068768670,
+      "stop" : 1701068768975,
+      "duration" : 305
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_negative_get_wallet_no_token[eth]",
+    "uid" : "14893f6b5500046e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068768978,
+      "stop" : 1701068769305,
+      "duration" : 327
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'eth'" ]
+  }, {
+    "name" : "test_negative_get_wallet_no_token[ize]",
+    "uid" : "326a26463f722f6e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068769308,
+      "stop" : 1701068769580,
+      "duration" : 272
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'ize'" ]
+  }, {
+    "name" : "test_negative_get_wallet_no_token[btc]",
+    "uid" : "8d4c1d4f73bbf1ae",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068769583,
+      "stop" : 1701068769879,
+      "duration" : 296
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'btc'" ]
+  }, {
+    "name" : "test_negative_get_wallet_no_token[usdc]",
+    "uid" : "a34272425a707bfb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068769882,
+      "stop" : 1701068770209,
+      "duration" : 327
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'usdc'" ]
+  }, {
+    "name" : "test_negative_get_transactions_no_token[eth]",
+    "uid" : "b90d7939f034da2c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068770211,
+      "stop" : 1701068770512,
+      "duration" : 301
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'eth'" ]
+  }, {
+    "name" : "test_negative_get_transactions_no_token[ize]",
+    "uid" : "15ef2cac62857ff3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068770515,
+      "stop" : 1701068770784,
+      "duration" : 269
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'ize'" ]
+  }, {
+    "name" : "test_negative_get_transactions_no_token[btc]",
+    "uid" : "f4d13d2ed4c78a2c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068770787,
+      "stop" : 1701068771084,
+      "duration" : 297
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'btc'" ]
+  }, {
+    "name" : "test_negative_get_transactions_no_token[usdc]",
+    "uid" : "e6e3bccfbd9a35ed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068771087,
+      "stop" : 1701068771374,
+      "duration" : 287
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'usdc'" ]
+  }, {
+    "name" : "test_negative_get_transactions_invalid_coin",
+    "uid" : "a0b49b510f851497",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068771377,
+      "stop" : 1701068771648,
+      "duration" : 271
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_create_user_step1",
+    "uid" : "ea58e5468c39aa1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068771651,
+      "stop" : 1701068772208,
+      "duration" : 557
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_create_user_step2",
+    "uid" : "b99e86c26134c5f3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068772211,
+      "stop" : 1701068773303,
+      "duration" : 1092
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login_new_user",
+    "uid" : "6b8d235f9bab01f9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068773305,
+      "stop" : 1701068773981,
+      "duration" : 676
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_email_verification_code",
+    "uid" : "b58f6ae6510b8462",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068773983,
+      "stop" : 1701068774278,
+      "duration" : 295
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_unsigned_agreements",
+    "uid" : "161d87124a305edb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068774281,
+      "stop" : 1701068774576,
+      "duration" : 295
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_verify_email",
+    "uid" : "f07adea4a8544e0e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068774578,
+      "stop" : 1701068775256,
+      "duration" : 678
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_wallet_mnemonic",
+    "uid" : "9aa61db22d8471ef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068775258,
+      "stop" : 1701068775564,
+      "duration" : 306
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_post_create_wallet",
+    "uid" : "ad14d543d9baa4d5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068775566,
+      "stop" : 1701068776034,
+      "duration" : 468
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_delete_new_user",
+    "uid" : "45ad984a80c11954",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1701068776784,
+      "stop" : 1701068777307,
+      "duration" : 523
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
