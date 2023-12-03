@@ -1,0 +1,12 @@
+INFO     root:conftest.py:184 === Starting test_patch_promotion Test ===
+INFO     root:conftest.py:185 API Response: 404 | {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.4","title":"Not Found","status":404,"traceId":"00-25612b90c24267f6c8ffda2f02ea952d-0ce887b546e9fae2-00"}
+INFO     root:conftest.py:191 Test 'test_patch_promotion' FAILED.
+ERROR    root:conftest.py:192 API response status code: 404
+assert 404 in [200, 201, 202, 203, 204, 205]
+ +  where 404 = <Response [404]>.status_code
+Traceback (most recent call last):
+  File "/home/runner/work/qa-nerd-core-backend/qa-nerd-core-backend/conftest.py", line 189, in api_response_conditions
+    assert response.status_code in allowed_status_codes, f"API response status code: {response.status_code}"
+AssertionError: API response status code: 404
+assert 404 in [200, 201, 202, 203, 204, 205]
+ +  where 404 = <Response [404]>.status_code
