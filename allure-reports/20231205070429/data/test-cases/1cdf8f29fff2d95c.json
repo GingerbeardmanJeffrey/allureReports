@@ -1,0 +1,182 @@
+{
+  "uid" : "1cdf8f29fff2d95c",
+  "name" : "test_create_cancel_invoice",
+  "fullName" : "tests.test_api_invoices#test_create_cancel_invoice",
+  "historyId" : "c714dc28e6c5985835b058629d0214c0",
+  "time" : {
+    "start" : 1701759896186,
+    "stop" : 1701759896186,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'product' is not defined",
+  "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/shopping/api'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjNhM2JkODk4ZGE1MGE4OWViOWUxY2YwYjdhN2VmZTM1OTNkNDEwNjgiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...51_DgxhaEy-e0PQl8yhYDoiKEWJCjQAq-PqBsm3WJV0ik-Jl-L8OElP6qUo_b6A3u7FcTfn9or7cFYASRyFu26V93rKpN0xdsUrN99oQ_cc28GJxy38YdQ'\nmember_id = 3829\n\n    def test_create_cancel_invoice(api_url, auth_token, member_id):\n        global product\n        global invoice_id\n        url = f\"{api_url}/invoices\"\n        data = {\"memberId\": member_id, \"products\":\n>               [{\"productId\": product, \"quantity\": 1}]}\nE       NameError: name 'product' is not defined\n\ntests/test_api_invoices.py:122: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "environment",
+    "time" : {
+      "start" : 1701759893640,
+      "stop" : 1701759893640,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1701759893640,
+      "stop" : 1701759893640,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1701759893640,
+      "stop" : 1701759893640,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1701759893640,
+      "stop" : 1701759893640,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1701759893641,
+      "stop" : 1701759894320,
+      "duration" : 679
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1701759893641,
+      "stop" : 1701759893641,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "member_id",
+    "time" : {
+      "start" : 1701759896185,
+      "stop" : 1701759896185,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'product' is not defined",
+    "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/shopping/api'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjNhM2JkODk4ZGE1MGE4OWViOWUxY2YwYjdhN2VmZTM1OTNkNDEwNjgiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...51_DgxhaEy-e0PQl8yhYDoiKEWJCjQAq-PqBsm3WJV0ik-Jl-L8OElP6qUo_b6A3u7FcTfn9or7cFYASRyFu26V93rKpN0xdsUrN99oQ_cc28GJxy38YdQ'\nmember_id = 3829\n\n    def test_create_cancel_invoice(api_url, auth_token, member_id):\n        global product\n        global invoice_id\n        url = f\"{api_url}/invoices\"\n        data = {\"memberId\": member_id, \"products\":\n>               [{\"productId\": product, \"quantity\": 1}]}\nE       NameError: name 'product' is not defined\n\ntests/test_api_invoices.py:122: NameError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7dd31f636660f634",
+      "name" : "stdout",
+      "source" : "7dd31f636660f634.txt",
+      "type" : "text/plain",
+      "size" : 1490
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_invoices"
+  }, {
+    "name" : "host",
+    "value" : "fv-az193-151"
+  }, {
+    "name" : "thread",
+    "value" : "1890-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_invoices"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1cdf8f29fff2d95c.json",
+  "parameterValues" : [ ]
+}
