@@ -1,0 +1,167 @@
+{
+  "uid" : "42981e3355f14dbc",
+  "name" : "test_get_affiliate",
+  "fullName" : "tests.test_api_members#test_get_affiliate",
+  "historyId" : "76c69ae3bef6160c1a010d2d28448163",
+  "time" : {
+    "start" : 1701846316866,
+    "stop" : 1701846317185,
+    "duration" : 319
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: API response status code: 404\nassert 404 in [200, 201, 202, 203, 204, 205]\n +  where 404 = <Response [404]>.status_code",
+  "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/membership/api'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjNhM2JkODk4ZGE1MGE4OWViOWUxY2YwYjdhN2VmZTM1OTNkNDEwNjgiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...141w5x7cj4tH8342rSHNob4N3QzJ84mW5lbkGBNvBJj4b7ZZaiMlUSEShtWNyTpuwr9GCkSCWcun8JvMUONs56YPBnwrgkZ5VzfCOydLLgDzkRMAuq2lAA'\n\n    def test_get_affiliate(api_url, auth_token):\n        global affiliate_code\n        url = f\"{api_url}/affiliates/{affiliate_code}\"\n        headers = {\"Authorization\": f\"Bearer {auth_token}\"}\n        response = requests.get(url=url, headers=headers)\n>       api_response_conditions(response)\n\ntests/test_api_members.py:64: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [404]>, test_name = 'test_get_affiliate'\n\n    def api_response_conditions(response, test_name=None):\n        if test_name is None:\n            caller_frame = inspect.currentframe().f_back\n            test_name = caller_frame.f_code.co_name\n        logging.info(f\"=== Starting {test_name} Test ===\")\n        logging.info(f\"API Response: {response.status_code} | {response.text}\")\n        allowed_status_codes = [200, 201, 202, 203, 204, 205]\n    \n        try:\n>           assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\nE           AssertionError: API response status code: 404\nE           assert 404 in [200, 201, 202, 203, 204, 205]\nE            +  where 404 = <Response [404]>.status_code\n\nconftest.py:189: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1701846313633,
+      "stop" : 1701846313633,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1701846313633,
+      "stop" : 1701846313633,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1701846313633,
+      "stop" : 1701846314350,
+      "duration" : 717
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1701846313633,
+      "stop" : 1701846313633,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1701846313633,
+      "stop" : 1701846313633,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1701846313633,
+      "stop" : 1701846313633,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: API response status code: 404\nassert 404 in [200, 201, 202, 203, 204, 205]\n +  where 404 = <Response [404]>.status_code",
+    "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/membership/api'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjNhM2JkODk4ZGE1MGE4OWViOWUxY2YwYjdhN2VmZTM1OTNkNDEwNjgiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...141w5x7cj4tH8342rSHNob4N3QzJ84mW5lbkGBNvBJj4b7ZZaiMlUSEShtWNyTpuwr9GCkSCWcun8JvMUONs56YPBnwrgkZ5VzfCOydLLgDzkRMAuq2lAA'\n\n    def test_get_affiliate(api_url, auth_token):\n        global affiliate_code\n        url = f\"{api_url}/affiliates/{affiliate_code}\"\n        headers = {\"Authorization\": f\"Bearer {auth_token}\"}\n        response = requests.get(url=url, headers=headers)\n>       api_response_conditions(response)\n\ntests/test_api_members.py:64: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [404]>, test_name = 'test_get_affiliate'\n\n    def api_response_conditions(response, test_name=None):\n        if test_name is None:\n            caller_frame = inspect.currentframe().f_back\n            test_name = caller_frame.f_code.co_name\n        logging.info(f\"=== Starting {test_name} Test ===\")\n        logging.info(f\"API Response: {response.status_code} | {response.text}\")\n        allowed_status_codes = [200, 201, 202, 203, 204, 205]\n    \n        try:\n>           assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\nE           AssertionError: API response status code: 404\nE           assert 404 in [200, 201, 202, 203, 204, 205]\nE            +  where 404 = <Response [404]>.status_code\n\nconftest.py:189: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e2b6b9717e0297a",
+      "name" : "log",
+      "source" : "e2b6b9717e0297a.txt",
+      "type" : "text/plain",
+      "size" : 3879
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_members"
+  }, {
+    "name" : "host",
+    "value" : "fv-az409-302"
+  }, {
+    "name" : "thread",
+    "value" : "1758-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_members"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "42981e3355f14dbc.json",
+  "parameterValues" : [ ]
+}
