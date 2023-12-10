@@ -1,0 +1,149 @@
+{
+  "uid" : "43d24751ddda6c6b",
+  "name" : "test_delete_promotion",
+  "fullName" : "tests.test_api_rewards#test_delete_promotion",
+  "historyId" : "d907c6f643222380174fc89901f5dc38",
+  "time" : {
+    "start" : 1702191917436,
+    "stop" : 1702191917436,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'campaign_id' is not defined",
+  "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/rewards'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjNhM2JkODk4ZGE1MGE4OWViOWUxY2YwYjdhN2VmZTM1OTNkNDEwNjgiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...cqUQnXCeLZC6_7VW664fAmcdTBAXiY8pqsuUXiwJKKohnahKPYmWkATVYRR29TMaeSWKheDlKSg2GxQyEcvIbU-mOmYVGK_pSoDFUJ-SlDYOTZ0pP1jbqA'\n\n    def test_delete_promotion(api_url, auth_token):\n        global campaign_id\n        global promotion_id\n>       url = f\"{api_url}/v1/campaigns/{campaign_id}/promotions/{promotion_id}\"\nE       NameError: name 'campaign_id' is not defined\n\ntests/test_api_rewards.py:268: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "config",
+    "time" : {
+      "start" : 1702191912321,
+      "stop" : 1702191912321,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1702191912321,
+      "stop" : 1702191912321,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1702191912321,
+      "stop" : 1702191912321,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1702191912322,
+      "stop" : 1702191913094,
+      "duration" : 772
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1702191912322,
+      "stop" : 1702191912322,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1702191912322,
+      "stop" : 1702191912322,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_rewards"
+  }, {
+    "name" : "host",
+    "value" : "fv-az439-738"
+  }, {
+    "name" : "thread",
+    "value" : "1786-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_rewards"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "43d24751ddda6c6b.json",
+  "parameterValues" : [ ]
+}

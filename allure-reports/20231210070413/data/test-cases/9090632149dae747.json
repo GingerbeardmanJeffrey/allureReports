@@ -1,0 +1,149 @@
+{
+  "uid" : "9090632149dae747",
+  "name" : "test_get_shipment",
+  "fullName" : "tests.test_api_invoices#test_get_shipment",
+  "historyId" : "4b46849d6f2f32aca18cc4719c72d861",
+  "time" : {
+    "start" : 1702191881186,
+    "stop" : 1702191881186,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'invoice_id' is not defined",
+  "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/shopping/api'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjNhM2JkODk4ZGE1MGE4OWViOWUxY2YwYjdhN2VmZTM1OTNkNDEwNjgiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...2ZSLPBRnm1_WtRa-QsUj4dYn7CGXg19dTPFu6EvtYPvqipBJlfUXOpfllTvzbJABxcag-pfl6ymdOoC0GQe2lJw9ou0HZBxBoKdbaVuAZNpsVTCjScGPBQ'\n\n    def test_get_shipment(api_url, auth_token):\n        global invoice_id\n>       url = f\"{api_url}/invoices/{invoice_id}/shipments\"\nE       NameError: name 'invoice_id' is not defined\n\ntests/test_api_invoices.py:96: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1702191879471,
+      "stop" : 1702191879471,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1702191879471,
+      "stop" : 1702191879471,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1702191879471,
+      "stop" : 1702191879471,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1702191879471,
+      "stop" : 1702191879471,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1702191879471,
+      "stop" : 1702191879471,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1702191879472,
+      "stop" : 1702191880271,
+      "duration" : 799
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_invoices"
+  }, {
+    "name" : "host",
+    "value" : "fv-az439-738"
+  }, {
+    "name" : "thread",
+    "value" : "1786-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_invoices"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9090632149dae747.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,167 @@
+{
+  "uid" : "aeffb9fcc6f9a582",
+  "name" : "test_get_campaign_by_id",
+  "fullName" : "tests.test_api_rewards#test_get_campaign_by_id",
+  "historyId" : "2c7cc32f1e0a4d4c5d3ca20f1b8f4917",
+  "time" : {
+    "start" : 1702191913955,
+    "stop" : 1702191914371,
+    "duration" : 416
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: API response status code: 403\nassert 403 in [200, 201, 202, 203, 204, 205]\n +  where 403 = <Response [403]>.status_code",
+  "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/rewards'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjNhM2JkODk4ZGE1MGE4OWViOWUxY2YwYjdhN2VmZTM1OTNkNDEwNjgiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...cqUQnXCeLZC6_7VW664fAmcdTBAXiY8pqsuUXiwJKKohnahKPYmWkATVYRR29TMaeSWKheDlKSg2GxQyEcvIbU-mOmYVGK_pSoDFUJ-SlDYOTZ0pP1jbqA'\n\n    def test_get_campaign_by_id(api_url, auth_token):\n        global campaign_id\n        url = f\"{api_url}/v1/campaigns/5?includeArchived=false\"\n        headers = {\"Authorization\": f\"Bearer {auth_token}\"}\n        response = requests.get(url=url, headers=headers)\n>       api_response_conditions(response)\n\ntests/test_api_rewards.py:54: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [403]>, test_name = 'test_get_campaign_by_id'\n\n    def api_response_conditions(response, test_name=None):\n        if test_name is None:\n            caller_frame = inspect.currentframe().f_back\n            test_name = caller_frame.f_code.co_name\n        logging.info(f\"=== Starting {test_name} Test ===\")\n        logging.info(f\"API Response: {response.status_code} | {response.text}\")\n        allowed_status_codes = [200, 201, 202, 203, 204, 205]\n    \n        try:\n>           assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\nE           AssertionError: API response status code: 403\nE           assert 403 in [200, 201, 202, 203, 204, 205]\nE            +  where 403 = <Response [403]>.status_code\n\nconftest.py:189: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "config",
+    "time" : {
+      "start" : 1702191912321,
+      "stop" : 1702191912321,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1702191912321,
+      "stop" : 1702191912321,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1702191912321,
+      "stop" : 1702191912321,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1702191912322,
+      "stop" : 1702191913094,
+      "duration" : 772
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1702191912322,
+      "stop" : 1702191912322,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1702191912322,
+      "stop" : 1702191912322,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: API response status code: 403\nassert 403 in [200, 201, 202, 203, 204, 205]\n +  where 403 = <Response [403]>.status_code",
+    "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/rewards'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjNhM2JkODk4ZGE1MGE4OWViOWUxY2YwYjdhN2VmZTM1OTNkNDEwNjgiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...cqUQnXCeLZC6_7VW664fAmcdTBAXiY8pqsuUXiwJKKohnahKPYmWkATVYRR29TMaeSWKheDlKSg2GxQyEcvIbU-mOmYVGK_pSoDFUJ-SlDYOTZ0pP1jbqA'\n\n    def test_get_campaign_by_id(api_url, auth_token):\n        global campaign_id\n        url = f\"{api_url}/v1/campaigns/5?includeArchived=false\"\n        headers = {\"Authorization\": f\"Bearer {auth_token}\"}\n        response = requests.get(url=url, headers=headers)\n>       api_response_conditions(response)\n\ntests/test_api_rewards.py:54: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [403]>, test_name = 'test_get_campaign_by_id'\n\n    def api_response_conditions(response, test_name=None):\n        if test_name is None:\n            caller_frame = inspect.currentframe().f_back\n            test_name = caller_frame.f_code.co_name\n        logging.info(f\"=== Starting {test_name} Test ===\")\n        logging.info(f\"API Response: {response.status_code} | {response.text}\")\n        allowed_status_codes = [200, 201, 202, 203, 204, 205]\n    \n        try:\n>           assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\nE           AssertionError: API response status code: 403\nE           assert 403 in [200, 201, 202, 203, 204, 205]\nE            +  where 403 = <Response [403]>.status_code\n\nconftest.py:189: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "421b88ba06c3d036",
+      "name" : "log",
+      "source" : "421b88ba06c3d036.txt",
+      "type" : "text/plain",
+      "size" : 744
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_rewards"
+  }, {
+    "name" : "host",
+    "value" : "fv-az439-738"
+  }, {
+    "name" : "thread",
+    "value" : "1786-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_rewards"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "aeffb9fcc6f9a582.json",
+  "parameterValues" : [ ]
+}
