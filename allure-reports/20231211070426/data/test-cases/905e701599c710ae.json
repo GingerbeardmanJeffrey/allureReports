@@ -1,0 +1,167 @@
+{
+  "uid" : "905e701599c710ae",
+  "name" : "test_create_agreement",
+  "fullName" : "tests.test_api_agreements#test_create_agreement",
+  "historyId" : "177c6d9c8b16a09464c94a0f3944131c",
+  "time" : {
+    "start" : 1702278274062,
+    "stop" : 1702278274284,
+    "duration" : 222
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: API response status code: 403\nassert 403 in [200, 201, 202, 203, 204, 205]\n +  where 403 = <Response [403]>.status_code",
+  "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/membership/api'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjNhM2JkODk4ZGE1MGE4OWViOWUxY2YwYjdhN2VmZTM1OTNkNDEwNjgiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...pw5gDRKQYqMnbVJ7_wHIZUuTwQgAQSjJxX4dIYcJFBTewJlaGb-wN2WeCX7fm_INfVuVvC8BMadgu7ponwEDSmXx9O5QWVVYDeC-w-TA6B6ds2xWsw_CQg'\n\n    def test_create_agreement(api_url, auth_token):\n        global var\n        url = f\"{api_url}/agreements\"\n        data = {\n            \"contextTypeId\": 3,\n            \"agreementTypeId\": 4,\n            \"name\": \"New Test Agreement\",\n            \"agreementDescription\": \"This is an agreement for test purposes\",\n            \"revisionDescription\": \"This is the first revision of this agreement\",\n            \"isAcknowledgmentRequired\": True,\n            \"isAcknowledgmentRequiredForUpdates\": True,\n            \"isAcknowledgmentRequiredPerTransaction\": True\n            }\n        headers = {\"Authorization\": f\"Bearer {auth_token}\"}\n        response = requests.post(url=url, headers=headers, json=data)\n>       api_response_conditions(response)\n\ntests/test_api_agreements.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [403]>, test_name = 'test_create_agreement'\n\n    def api_response_conditions(response, test_name=None):\n        if test_name is None:\n            caller_frame = inspect.currentframe().f_back\n            test_name = caller_frame.f_code.co_name\n        logging.info(f\"=== Starting {test_name} Test ===\")\n        logging.info(f\"API Response: {response.status_code} | {response.text}\")\n        allowed_status_codes = [200, 201, 202, 203, 204, 205]\n    \n        try:\n>           assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\nE           AssertionError: API response status code: 403\nE           assert 403 in [200, 201, 202, 203, 204, 205]\nE            +  where 403 = <Response [403]>.status_code\n\nconftest.py:189: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1702278272964,
+      "stop" : 1702278272964,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1702278272964,
+      "stop" : 1702278272964,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1702278272964,
+      "stop" : 1702278272965,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1702278272964,
+      "stop" : 1702278272964,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1702278272965,
+      "stop" : 1702278273709,
+      "duration" : 744
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1702278272965,
+      "stop" : 1702278272965,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: API response status code: 403\nassert 403 in [200, 201, 202, 203, 204, 205]\n +  where 403 = <Response [403]>.status_code",
+    "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/membership/api'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjNhM2JkODk4ZGE1MGE4OWViOWUxY2YwYjdhN2VmZTM1OTNkNDEwNjgiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...pw5gDRKQYqMnbVJ7_wHIZUuTwQgAQSjJxX4dIYcJFBTewJlaGb-wN2WeCX7fm_INfVuVvC8BMadgu7ponwEDSmXx9O5QWVVYDeC-w-TA6B6ds2xWsw_CQg'\n\n    def test_create_agreement(api_url, auth_token):\n        global var\n        url = f\"{api_url}/agreements\"\n        data = {\n            \"contextTypeId\": 3,\n            \"agreementTypeId\": 4,\n            \"name\": \"New Test Agreement\",\n            \"agreementDescription\": \"This is an agreement for test purposes\",\n            \"revisionDescription\": \"This is the first revision of this agreement\",\n            \"isAcknowledgmentRequired\": True,\n            \"isAcknowledgmentRequiredForUpdates\": True,\n            \"isAcknowledgmentRequiredPerTransaction\": True\n            }\n        headers = {\"Authorization\": f\"Bearer {auth_token}\"}\n        response = requests.post(url=url, headers=headers, json=data)\n>       api_response_conditions(response)\n\ntests/test_api_agreements.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [403]>, test_name = 'test_create_agreement'\n\n    def api_response_conditions(response, test_name=None):\n        if test_name is None:\n            caller_frame = inspect.currentframe().f_back\n            test_name = caller_frame.f_code.co_name\n        logging.info(f\"=== Starting {test_name} Test ===\")\n        logging.info(f\"API Response: {response.status_code} | {response.text}\")\n        allowed_status_codes = [200, 201, 202, 203, 204, 205]\n    \n        try:\n>           assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\nE           AssertionError: API response status code: 403\nE           assert 403 in [200, 201, 202, 203, 204, 205]\nE            +  where 403 = <Response [403]>.status_code\n\nconftest.py:189: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a1605266ff1b1309",
+      "name" : "log",
+      "source" : "a1605266ff1b1309.txt",
+      "type" : "text/plain",
+      "size" : 740
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_agreements"
+  }, {
+    "name" : "host",
+    "value" : "fv-az586-928"
+  }, {
+    "name" : "thread",
+    "value" : "1749-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_agreements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "905e701599c710ae.json",
+  "parameterValues" : [ ]
+}
