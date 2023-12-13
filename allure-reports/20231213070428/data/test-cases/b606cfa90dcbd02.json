@@ -1,0 +1,149 @@
+{
+  "uid" : "b606cfa90dcbd02",
+  "name" : "test_get_requirement",
+  "fullName" : "tests.test_api_rewards#test_get_requirement",
+  "historyId" : "cfb810c7ebb9a3013d983b3b3cc6eedb",
+  "time" : {
+    "start" : 1702451117281,
+    "stop" : 1702451117282,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'campaign_id' is not defined",
+  "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/rewards'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImJlNzgyM2VmMDFiZDRkMmI5NjI3NDE2NThkMjA4MDdlZmVlNmRlNWMiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...cV8Lk2O2On5fjMpTL9UiiuzH7Egnn6CxHKIAVzxA0500jmEU0ugnkug8rtmjO-x8D1jPJ5mAgBRbbWJI1ula7IGYUqZISUsUezHe2QOy9tBAEycVjKg_5w'\n\n    def test_get_requirement(api_url, auth_token):\n        global campaign_id\n        global promotion_id\n        global requirement_id\n>       url = f\"{api_url}/v1/campaigns/{campaign_id}/promotions/{promotion_id}/requirements/{requirement_id}\"\nE       NameError: name 'campaign_id' is not defined\n\ntests/test_api_rewards.py:212: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "environment",
+    "time" : {
+      "start" : 1702451113712,
+      "stop" : 1702451113712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1702451113712,
+      "stop" : 1702451113712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1702451113712,
+      "stop" : 1702451113712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1702451113712,
+      "stop" : 1702451114441,
+      "duration" : 729
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1702451113712,
+      "stop" : 1702451113712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1702451113712,
+      "stop" : 1702451113712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_rewards"
+  }, {
+    "name" : "host",
+    "value" : "fv-az442-974"
+  }, {
+    "name" : "thread",
+    "value" : "1759-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_rewards"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b606cfa90dcbd02.json",
+  "parameterValues" : [ ]
+}
