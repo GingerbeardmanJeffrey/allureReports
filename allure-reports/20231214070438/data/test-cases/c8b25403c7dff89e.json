@@ -1,0 +1,167 @@
+{
+  "uid" : "c8b25403c7dff89e",
+  "name" : "test_get_a_role",
+  "fullName" : "tests.test_api_roles#test_get_a_role",
+  "historyId" : "4dc375ef3afc5a0a5ed3cc28ddacbf37",
+  "time" : {
+    "start" : 1702537522030,
+    "stop" : 1702537522251,
+    "duration" : 221
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: API response status code: 401\nassert 401 in [200, 201, 202, 203, 204, 205]\n +  where 401 = <Response [401]>.status_code",
+  "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/membership/api'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImJlNzgyM2VmMDFiZDRkMmI5NjI3NDE2NThkMjA4MDdlZmVlNmRlNWMiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...wxq5f0gqA0P6wXbEugXDTEd3wzvfSHbScIiuIyr0eM816xeXmAgTXA1jqVKZhm3ALfdxUu266g2skNxcHBpwYVQ3jp3QHF1IzsBnfJu904ZWOc75LDfuOQ'\n\n    def test_get_a_role(api_url, auth_token):\n        url = f\"{api_url}/roles/1\"\n        headers = {\"Authorization\": f\"Bearer {auth_token}\"}\n        response = requests.get(url=url, headers=headers)\n>       api_response_conditions(response)\n\ntests/test_api_roles.py:14: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [401]>, test_name = 'test_get_a_role'\n\n    def api_response_conditions(response, test_name=None):\n        if test_name is None:\n            caller_frame = inspect.currentframe().f_back\n            test_name = caller_frame.f_code.co_name\n        logging.info(f\"=== Starting {test_name} Test ===\")\n        logging.info(f\"API Response: {response.status_code} | {response.text}\")\n        allowed_status_codes = [200, 201, 202, 203, 204, 205]\n    \n        try:\n>           assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\nE           AssertionError: API response status code: 401\nE           assert 401 in [200, 201, 202, 203, 204, 205]\nE            +  where 401 = <Response [401]>.status_code\n\nconftest.py:189: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1702537521475,
+      "stop" : 1702537522029,
+      "duration" : 554
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1702537521475,
+      "stop" : 1702537521475,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1702537521475,
+      "stop" : 1702537521475,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1702537521475,
+      "stop" : 1702537521475,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1702537521475,
+      "stop" : 1702537521475,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1702537521475,
+      "stop" : 1702537521475,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: API response status code: 401\nassert 401 in [200, 201, 202, 203, 204, 205]\n +  where 401 = <Response [401]>.status_code",
+    "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/membership/api'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImJlNzgyM2VmMDFiZDRkMmI5NjI3NDE2NThkMjA4MDdlZmVlNmRlNWMiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...wxq5f0gqA0P6wXbEugXDTEd3wzvfSHbScIiuIyr0eM816xeXmAgTXA1jqVKZhm3ALfdxUu266g2skNxcHBpwYVQ3jp3QHF1IzsBnfJu904ZWOc75LDfuOQ'\n\n    def test_get_a_role(api_url, auth_token):\n        url = f\"{api_url}/roles/1\"\n        headers = {\"Authorization\": f\"Bearer {auth_token}\"}\n        response = requests.get(url=url, headers=headers)\n>       api_response_conditions(response)\n\ntests/test_api_roles.py:14: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [401]>, test_name = 'test_get_a_role'\n\n    def api_response_conditions(response, test_name=None):\n        if test_name is None:\n            caller_frame = inspect.currentframe().f_back\n            test_name = caller_frame.f_code.co_name\n        logging.info(f\"=== Starting {test_name} Test ===\")\n        logging.info(f\"API Response: {response.status_code} | {response.text}\")\n        allowed_status_codes = [200, 201, 202, 203, 204, 205]\n    \n        try:\n>           assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\nE           AssertionError: API response status code: 401\nE           assert 401 in [200, 201, 202, 203, 204, 205]\nE            +  where 401 = <Response [401]>.status_code\n\nconftest.py:189: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "db6319a8a60acc97",
+      "name" : "log",
+      "source" : "db6319a8a60acc97.txt",
+      "type" : "text/plain",
+      "size" : 3307
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_roles"
+  }, {
+    "name" : "host",
+    "value" : "fv-az987-240"
+  }, {
+    "name" : "thread",
+    "value" : "1803-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_roles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c8b25403c7dff89e.json",
+  "parameterValues" : [ ]
+}

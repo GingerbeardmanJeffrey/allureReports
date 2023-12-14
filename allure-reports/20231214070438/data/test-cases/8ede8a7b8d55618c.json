@@ -1,0 +1,182 @@
+{
+  "uid" : "8ede8a7b8d55618c",
+  "name" : "test_create_affiliates",
+  "fullName" : "tests.test_api_members#test_create_affiliates",
+  "historyId" : "b49907beaede960d07a3278bb8a40b75",
+  "time" : {
+    "start" : 1702537515124,
+    "stop" : 1702537515347,
+    "duration" : 223
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: API response status code: 403\nassert 403 in [200, 201, 202, 203, 204, 205]\n +  where 403 = <Response [403]>.status_code",
+  "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/membership/api'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImJlNzgyM2VmMDFiZDRkMmI5NjI3NDE2NThkMjA4MDdlZmVlNmRlNWMiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...EwqG9IrIWbIeG0_m7YOU3gQkzC0RMNZ5XrJ3g8-L_d5sDFrHCz3UWqEYYeLshH5y8s45waUR-U2P74xWaBoA3ayYUgHf9kjZY9pseg1OdxZbA85XOrF0qg'\nrng = 'gnu8F'\n\n    def test_create_affiliates(api_url, auth_token, rng):\n        global affiliate_code\n        affiliate_code = rng\n        url = f\"{api_url}/affiliates\"\n        headers = {\"Authorization\": f\"Bearer {auth_token}\"}\n        data = {\"code\": f\"{affiliate_code}\",\"name\": \"Test\"}\n        response = requests.post(url=url, headers=headers, json=data)\n>       api_response_conditions(response)\n\ntests/test_api_members.py:57: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [403]>, test_name = 'test_create_affiliates'\n\n    def api_response_conditions(response, test_name=None):\n        if test_name is None:\n            caller_frame = inspect.currentframe().f_back\n            test_name = caller_frame.f_code.co_name\n        logging.info(f\"=== Starting {test_name} Test ===\")\n        logging.info(f\"API Response: {response.status_code} | {response.text}\")\n        allowed_status_codes = [200, 201, 202, 203, 204, 205]\n    \n        try:\n>           assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\nE           AssertionError: API response status code: 403\nE           assert 403 in [200, 201, 202, 203, 204, 205]\nE            +  where 403 = <Response [403]>.status_code\n\nconftest.py:189: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1702537513073,
+      "stop" : 1702537513634,
+      "duration" : 561
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1702537513073,
+      "stop" : 1702537513073,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1702537513073,
+      "stop" : 1702537513073,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1702537513073,
+      "stop" : 1702537513073,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1702537513073,
+      "stop" : 1702537513073,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1702537513073,
+      "stop" : 1702537513073,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "rng",
+    "time" : {
+      "start" : 1702537515124,
+      "stop" : 1702537515124,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: API response status code: 403\nassert 403 in [200, 201, 202, 203, 204, 205]\n +  where 403 = <Response [403]>.status_code",
+    "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/membership/api'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImJlNzgyM2VmMDFiZDRkMmI5NjI3NDE2NThkMjA4MDdlZmVlNmRlNWMiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...EwqG9IrIWbIeG0_m7YOU3gQkzC0RMNZ5XrJ3g8-L_d5sDFrHCz3UWqEYYeLshH5y8s45waUR-U2P74xWaBoA3ayYUgHf9kjZY9pseg1OdxZbA85XOrF0qg'\nrng = 'gnu8F'\n\n    def test_create_affiliates(api_url, auth_token, rng):\n        global affiliate_code\n        affiliate_code = rng\n        url = f\"{api_url}/affiliates\"\n        headers = {\"Authorization\": f\"Bearer {auth_token}\"}\n        data = {\"code\": f\"{affiliate_code}\",\"name\": \"Test\"}\n        response = requests.post(url=url, headers=headers, json=data)\n>       api_response_conditions(response)\n\ntests/test_api_members.py:57: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [403]>, test_name = 'test_create_affiliates'\n\n    def api_response_conditions(response, test_name=None):\n        if test_name is None:\n            caller_frame = inspect.currentframe().f_back\n            test_name = caller_frame.f_code.co_name\n        logging.info(f\"=== Starting {test_name} Test ===\")\n        logging.info(f\"API Response: {response.status_code} | {response.text}\")\n        allowed_status_codes = [200, 201, 202, 203, 204, 205]\n    \n        try:\n>           assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\nE           AssertionError: API response status code: 403\nE           assert 403 in [200, 201, 202, 203, 204, 205]\nE            +  where 403 = <Response [403]>.status_code\n\nconftest.py:189: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "45e285b67737dcb1",
+      "name" : "log",
+      "source" : "45e285b67737dcb1.txt",
+      "type" : "text/plain",
+      "size" : 742
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_members"
+  }, {
+    "name" : "host",
+    "value" : "fv-az987-240"
+  }, {
+    "name" : "thread",
+    "value" : "1803-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_members"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8ede8a7b8d55618c.json",
+  "parameterValues" : [ ]
+}
