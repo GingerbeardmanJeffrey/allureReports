@@ -1,0 +1,118 @@
+{
+  "uid" : "ebc4ba64f9c636dc",
+  "name" : "test_post_update_campaign",
+  "fullName" : "tests.test_api_rewards#test_post_update_campaign",
+  "historyId" : "cf3e52406488ff4e196ac879b98cf018",
+  "time" : {
+    "start" : 1702710311243,
+    "stop" : 1702710311243,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Further testing needed.",
+  "statusTrace" : "('/home/runner/work/qa-nerd-core-backend/qa-nerd-core-backend/tests/test_api_rewards.py', 56, 'Skipped: Further testing needed.')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1702710309609,
+      "stop" : 1702710309609,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1702710309609,
+      "stop" : 1702710309610,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1702710309609,
+      "stop" : 1702710309609,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1702710309610,
+      "stop" : 1702710309610,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='Further testing needed.')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_rewards"
+  }, {
+    "name" : "host",
+    "value" : "fv-az162-739"
+  }, {
+    "name" : "thread",
+    "value" : "1777-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_rewards"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='Further testing needed.')" ]
+  },
+  "source" : "ebc4ba64f9c636dc.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,102 @@
+{
+  "uid" : "71e386a0adbc3169",
+  "name" : "test_coin_market_cap[btc]",
+  "fullName" : "tests.test_api_fees#test_coin_market_cap",
+  "historyId" : "964f6a5d8045136caeb0bbc23dd8955b",
+  "time" : {
+    "start" : 1702710279188,
+    "stop" : 1702710279406,
+    "duration" : 218
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "environment",
+    "time" : {
+      "start" : 1702710278731,
+      "stop" : 1702710278731,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1702710278731,
+      "stop" : 1702710278731,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7115801a3cecc539",
+      "name" : "log",
+      "source" : "7115801a3cecc539.txt",
+      "type" : "text/plain",
+      "size" : 1345
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_fees"
+  }, {
+    "name" : "host",
+    "value" : "fv-az162-739"
+  }, {
+    "name" : "thread",
+    "value" : "1777-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_fees"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "coin",
+    "value" : "'btc'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71e386a0adbc3169.json",
+  "parameterValues" : [ "'btc'" ]
+}

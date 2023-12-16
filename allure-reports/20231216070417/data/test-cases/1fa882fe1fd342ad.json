@@ -1,0 +1,199 @@
+{
+  "uid" : "1fa882fe1fd342ad",
+  "name" : "test_add_cart_item",
+  "fullName" : "tests.test_api_carts#test_add_cart_item",
+  "historyId" : "a3d49696042cb47d436e2f12fdeee3ce",
+  "time" : {
+    "start" : 1702710273452,
+    "stop" : 1702710273452,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: API response status code: 403\nassert 403 in [200, 201, 202, 203, 204, 205]\n +  where 403 = <Response [403]>.status_code",
+  "statusTrace" : "base_url = 'https://api.dev.nerdunited.net', api_version = '/api'\nconfig = <module 'config' from '/home/runner/work/qa-nerd-core-backend/qa-nerd-core-backend/config.py'>\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImJlNzgyM2VmMDFiZDRkMmI5NjI3NDE2NThkMjA4MDdlZmVlNmRlNWMiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...8nDboQHRAQduKoGFAoSv80_64xGBEUpwaQOwsjQzIb0WNlCPmOIXay9qLI5fw3W4dHaNKyAGjOLeyH9AbT3fstLloyl2hWmHxVDuZKCb5Z1Y8DzKyi9UrA'\nsku = 'uRWFjT4FNS-01'\n\n    @pytest.fixture\n    def create_product(base_url, api_version, config, auth_token, sku):\n        url = f\"{base_url}{config.SHOPPING_URL}{api_version}/products\"\n        data = {\n            \"name\": \"QA Test Node\",\n            \"description\": \"This is an automated sample node.\",\n            \"sku\": sku,\n            \"price\": 1.00,\n            \"currencyId\": 1,\n            \"iconImageURL\": \"THIS_IS_ALSO_A_TEST\",\n            \"productCategoryId\": 2,\n            \"licenseType\": 1,\n            \"isShippable\": True,\n            \"maxPurchaseQuantity\": 10000,\n            \"flatRateShippingCost\": 0.00,\n            \"quantityLimited\": False,\n            \"quantitySold\": 0,\n            \"lowStockThreshold\": 0,\n            \"referenceProductId\": \"9413\"\n        }\n        headers = {\"Authorization\": f\"Bearer {auth_token}\"}\n        response = requests.post(url=url, headers=headers, json=data)\n>       api_response_conditions(response)\n\nconftest.py:165: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [403]>, test_name = 'create_product'\n\n    def api_response_conditions(response, test_name=None):\n        if test_name is None:\n            caller_frame = inspect.currentframe().f_back\n            test_name = caller_frame.f_code.co_name\n        logging.info(f\"=== Starting {test_name} Test ===\")\n        logging.info(f\"API Response: {response.status_code} | {response.text}\")\n        allowed_status_codes = [200, 201, 202, 203, 204, 205]\n    \n        try:\n>           assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\nE           AssertionError: API response status code: 403\nE           assert 403 in [200, 201, 202, 203, 204, 205]\nE            +  where 403 = <Response [403]>.status_code\n\nconftest.py:189: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1702710273453,
+      "stop" : 1702710273453,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1702710273453,
+      "stop" : 1702710273453,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1702710273453,
+      "stop" : 1702710273453,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1702710273453,
+      "stop" : 1702710273453,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1702710273453,
+      "stop" : 1702710273453,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1702710273453,
+      "stop" : 1702710274263,
+      "duration" : 810
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "sku",
+    "time" : {
+      "start" : 1702710274263,
+      "stop" : 1702710274263,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "create_product",
+    "time" : {
+      "start" : 1702710274263,
+      "stop" : 1702710274554,
+      "duration" : 291
+    },
+    "status" : "failed",
+    "statusMessage" : "AssertionError: API response status code: 403\nassert 403 in [200, 201, 202, 203, 204, 205]\n +  where 403 = <Response [403]>.status_code\n",
+    "statusTrace" : "  File \"/home/runner/.local/lib/python3.10/site-packages/pluggy/_callers.py\", line 77, in _multicall\n    res = hook_impl.function(*args)\n  File \"/home/runner/.local/lib/python3.10/site-packages/_pytest/fixtures.py\", line 1123, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/home/runner/.local/lib/python3.10/site-packages/_pytest/fixtures.py\", line 902, in call_fixture_func\n    fixture_result = fixturefunc(**kwargs)\n  File \"/home/runner/work/qa-nerd-core-backend/qa-nerd-core-backend/conftest.py\", line 165, in create_product\n    api_response_conditions(response)\n  File \"/home/runner/work/qa-nerd-core-backend/qa-nerd-core-backend/conftest.py\", line 189, in api_response_conditions\n    assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: API response status code: 403\nassert 403 in [200, 201, 202, 203, 204, 205]\n +  where 403 = <Response [403]>.status_code",
+    "statusTrace" : "base_url = 'https://api.dev.nerdunited.net', api_version = '/api'\nconfig = <module 'config' from '/home/runner/work/qa-nerd-core-backend/qa-nerd-core-backend/config.py'>\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImJlNzgyM2VmMDFiZDRkMmI5NjI3NDE2NThkMjA4MDdlZmVlNmRlNWMiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...8nDboQHRAQduKoGFAoSv80_64xGBEUpwaQOwsjQzIb0WNlCPmOIXay9qLI5fw3W4dHaNKyAGjOLeyH9AbT3fstLloyl2hWmHxVDuZKCb5Z1Y8DzKyi9UrA'\nsku = 'uRWFjT4FNS-01'\n\n    @pytest.fixture\n    def create_product(base_url, api_version, config, auth_token, sku):\n        url = f\"{base_url}{config.SHOPPING_URL}{api_version}/products\"\n        data = {\n            \"name\": \"QA Test Node\",\n            \"description\": \"This is an automated sample node.\",\n            \"sku\": sku,\n            \"price\": 1.00,\n            \"currencyId\": 1,\n            \"iconImageURL\": \"THIS_IS_ALSO_A_TEST\",\n            \"productCategoryId\": 2,\n            \"licenseType\": 1,\n            \"isShippable\": True,\n            \"maxPurchaseQuantity\": 10000,\n            \"flatRateShippingCost\": 0.00,\n            \"quantityLimited\": False,\n            \"quantitySold\": 0,\n            \"lowStockThreshold\": 0,\n            \"referenceProductId\": \"9413\"\n        }\n        headers = {\"Authorization\": f\"Bearer {auth_token}\"}\n        response = requests.post(url=url, headers=headers, json=data)\n>       api_response_conditions(response)\n\nconftest.py:165: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [403]>, test_name = 'create_product'\n\n    def api_response_conditions(response, test_name=None):\n        if test_name is None:\n            caller_frame = inspect.currentframe().f_back\n            test_name = caller_frame.f_code.co_name\n        logging.info(f\"=== Starting {test_name} Test ===\")\n        logging.info(f\"API Response: {response.status_code} | {response.text}\")\n        allowed_status_codes = [200, 201, 202, 203, 204, 205]\n    \n        try:\n>           assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\nE           AssertionError: API response status code: 403\nE           assert 403 in [200, 201, 202, 203, 204, 205]\nE            +  where 403 = <Response [403]>.status_code\n\nconftest.py:189: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c3afc85c953a9916",
+      "name" : "log",
+      "source" : "c3afc85c953a9916.txt",
+      "type" : "text/plain",
+      "size" : 3305
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_carts"
+  }, {
+    "name" : "host",
+    "value" : "fv-az162-739"
+  }, {
+    "name" : "thread",
+    "value" : "1777-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_carts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1fa882fe1fd342ad.json",
+  "parameterValues" : [ ]
+}

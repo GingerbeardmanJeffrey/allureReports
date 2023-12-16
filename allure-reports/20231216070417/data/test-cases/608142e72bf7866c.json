@@ -1,0 +1,149 @@
+{
+  "uid" : "608142e72bf7866c",
+  "name" : "test_get_promotion",
+  "fullName" : "tests.test_api_rewards#test_get_promotion",
+  "historyId" : "e78c0fc85bf8978387b26db5b0b00e73",
+  "time" : {
+    "start" : 1702710312202,
+    "stop" : 1702710312202,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'campaign_id' is not defined",
+  "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/rewards'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImJlNzgyM2VmMDFiZDRkMmI5NjI3NDE2NThkMjA4MDdlZmVlNmRlNWMiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...XMA2tA85MpEcRls2k6dC3zhP6GN5-_Us_nUUUa0d0o6O0G8nfRP3PZSOBLs0le_sHyEcbx_BczmfVwL1lxsBeEz-4qWg1C-qDbHhMhsKTuAbayLQjs1D-Q'\n\n    def test_get_promotion(api_url, auth_token):\n        global campaign_id\n        global promotion_id\n>       url = f\"{api_url}/v1/campaigns/{campaign_id}/promotions/{promotion_id}?includeDeleted=false\"\nE       NameError: name 'campaign_id' is not defined\n\ntests/test_api_rewards.py:109: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1702710309609,
+      "stop" : 1702710309609,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1702710309609,
+      "stop" : 1702710309610,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1702710309609,
+      "stop" : 1702710309609,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1702710309610,
+      "stop" : 1702710310321,
+      "duration" : 711
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1702710309610,
+      "stop" : 1702710309610,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1702710309610,
+      "stop" : 1702710309610,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_rewards"
+  }, {
+    "name" : "host",
+    "value" : "fv-az162-739"
+  }, {
+    "name" : "thread",
+    "value" : "1777-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_rewards"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "608142e72bf7866c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,149 @@
+{
+  "uid" : "6f47997e40c676f2",
+  "name" : "test_create_campaigns",
+  "fullName" : "tests.test_api_rewards#test_create_campaigns",
+  "historyId" : "c56f97b2e29833aa0ab545c8d600d566",
+  "time" : {
+    "start" : 1702710310618,
+    "stop" : 1702710310890,
+    "duration" : 272
+  },
+  "status" : "broken",
+  "statusMessage" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/rewards'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImJlNzgyM2VmMDFiZDRkMmI5NjI3NDE2NThkMjA4MDdlZmVlNmRlNWMiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...XMA2tA85MpEcRls2k6dC3zhP6GN5-_Us_nUUUa0d0o6O0G8nfRP3PZSOBLs0le_sHyEcbx_BczmfVwL1lxsBeEz-4qWg1C-qDbHhMhsKTuAbayLQjs1D-Q'\n\n    def test_create_campaigns(api_url, auth_token):\n        global campaign_id\n        url = f\"{api_url}/v1/campaigns\"\n        headers = {\"Authorization\": f\"Bearer {auth_token}\"}\n        data = {\n            \"name\": \"New Campaign\",\n            \"promotions\": [\n                {\n                    \"Title\": \"Promotion\",\n                    \"Description\": \"Description1\",\n                    \"ImageUrl\": \"ImageUrl1\",\n                    \"Url\": \"ImageUrl1\",\n                    \"LegalDisclaimer\": \"Disclaimer1\",\n                    \"MaxRedemptions\": \"3\",\n                    \"MinRedemptions\": \"1\",\n                    \"IsActive\": True,\n                    \"OrderIndex\": \"0\",\n                    \"Requirements\": [\n                        {\n                            \"ActionType\": 1,\n                            \"Amount\": 1\n                        }],\n                    \"Rewards\": [{\n                        \"RewardType\": 1,\n                        \"Amount\": \"1.0004\"\n                    }],\n                    \"ChildPromotions\": []\n            }]\n        }\n        response = requests.post(url=url, headers=headers, json=data)\n>       campaign_id = response.json()[\"id\"]\n\ntests/test_api_rewards.py:46: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/usr/lib/python3/dist-packages/requests/models.py:900: in json\n    return complexjson.loads(self.text, **kwargs)\n/usr/lib/python3.10/json/__init__.py:346: in loads\n    return _default_decoder.decode(s)\n/usr/lib/python3.10/json/decoder.py:337: in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <json.decoder.JSONDecoder object at 0x7fb93fdf0a60>, s = '', idx = 0\n\n    def raw_decode(self, s, idx=0):\n        \"\"\"Decode a JSON document from ``s`` (a ``str`` beginning with\n        a JSON document) and return a 2-tuple of the Python\n        representation and the index in ``s`` where the document ended.\n    \n        This can be used to decode a JSON document from a string that may\n        have extraneous data at the end.\n    \n        \"\"\"\n        try:\n            obj, end = self.scan_once(s, idx)\n        except StopIteration as err:\n>           raise JSONDecodeError(\"Expecting value\", s, err.value) from None\nE           json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\n/usr/lib/python3.10/json/decoder.py:355: JSONDecodeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1702710309609,
+      "stop" : 1702710309609,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1702710309609,
+      "stop" : 1702710309610,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1702710309609,
+      "stop" : 1702710309609,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1702710309610,
+      "stop" : 1702710310321,
+      "duration" : 711
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1702710309610,
+      "stop" : 1702710309610,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1702710309610,
+      "stop" : 1702710309610,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_rewards"
+  }, {
+    "name" : "host",
+    "value" : "fv-az162-739"
+  }, {
+    "name" : "thread",
+    "value" : "1777-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_rewards"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6f47997e40c676f2.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,149 @@
+{
+  "uid" : "e8a21bd7d6841abe",
+  "name" : "test_delete_product",
+  "fullName" : "tests.test_api_products#test_delete_product",
+  "historyId" : "e0b1afc96edd5bf9f8a0902dd01b70b9",
+  "time" : {
+    "start" : 1702710309605,
+    "stop" : 1702710309606,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'product_id' is not defined",
+  "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/shopping/api'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImJlNzgyM2VmMDFiZDRkMmI5NjI3NDE2NThkMjA4MDdlZmVlNmRlNWMiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbn...v-wKikzDhgb7okZOuPZ_nhVLr830Uv_Ii2lQowMi8B7kd4VocVyBhmn16g33pLAl9mx6KbEy6glZvEWOsZ90BI3Xn7f8EzngFMJMBJgwNduVm-yJHYoTIQ'\n\n    def test_delete_product(api_url, auth_token):\n        global product_id\n>       url = f\"{api_url}/products/{product_id}\"\nE       NameError: name 'product_id' is not defined\n\ntests/test_api_products.py:69: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1702710308005,
+      "stop" : 1702710308680,
+      "duration" : 675
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1702710308005,
+      "stop" : 1702710308005,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1702710308005,
+      "stop" : 1702710308005,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1702710308005,
+      "stop" : 1702710308005,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1702710308005,
+      "stop" : 1702710308005,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1702710308005,
+      "stop" : 1702710308005,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_products"
+  }, {
+    "name" : "host",
+    "value" : "fv-az162-739"
+  }, {
+    "name" : "thread",
+    "value" : "1777-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e8a21bd7d6841abe.json",
+  "parameterValues" : [ ]
+}
