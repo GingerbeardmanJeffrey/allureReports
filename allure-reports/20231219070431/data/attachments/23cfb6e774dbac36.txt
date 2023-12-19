@@ -1,0 +1,16 @@
+INFO     root:conftest.py:184 === Starting auth_token Test ===
+INFO     root:conftest.py:185 API Response: 200 | {"kind":"identitytoolkit#VerifyCustomTokenResponse","idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImJlNzgyM2VmMDFiZDRkMmI5NjI3NDE2NThkMjA4MDdlZmVlNmRlNWMiLCJ0eXAiOiJKV1QifQ.eyJhZ3JlZW1lbnRzU2lnbmVkIjpmYWxzZSwiZW1haWxWZXJpZmllZCI6dHJ1ZSwibWVtYmVyQmlydGhEYXRlIjoiMDMvMDgvMTk5MSAwMDowMDowMCIsIm1lbWJlcklkIjozODI5LCJtZW1iZXJGaXJzdE5hbWUiOiJRQSIsIm1lbWJlckxhc3ROYW1lIjoiTmVyZCIsIm1lbWJlckRpc3BsYXlOYW1lIjoiTmVyZENvcmUtUUEiLCJtZW1iZXJOYW1lIjoiTmVyZCBDb3JlIiwibWVtYmVyTnVtYmVyIjoiMDAzODI5IiwibWVtYmVyUGhvbmUiOiIrMTMxMDU1NTU1NTUiLCJtZW1iZXJUaW1lWm9uZSI6IiswNzowMCIsInBlcm1pc3Npb25zIjpbXSwicm9sZXMiOltdLCJ1c2VySWQiOiI2NDJlZWZhNjc1ZGU3MDdjNDRhZmM4NDAiLCJvcHRJblNoYXJlTmFtZSI6ZmFsc2UsImF1dGhlbnRpY2F0b3JFbmFibGVkIjpmYWxzZSwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NvcmUtZGV2LTliNTRiIiwiYXVkIjoiY29yZS1kZXYtOWI1NGIiLCJhdXRoX3RpbWUiOjE3MDI5Njk0OTMsInVzZXJfaWQiOiJvQ0RSbHNNOVMzWjdiejBXNzMyYlBUcWlGUUgzIiwic3ViIjoib0NEUmxzTTlTM1o3YnowVzczMmJQVHFpRlFIMyIsImlhdCI6MTcwMjk2OTQ5MywiZXhwIjoxNzAyOTczMDkzLCJlbWFpbCI6Im5lcmRjb3JlX3FhdGVhbSsxQG5lcmR1bml0ZWQuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsibmVyZGNvcmVfcWF0ZWFtKzFAbmVyZHVuaXRlZC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.QGr16mcTpkgNLx3PeuxE0gqCn9aARDvjvHyIBCRiOXg6aqgso2MxKUaOcsUwgToRilpUIp4Ya_3UyN5NXwM1AMhkMojlAbDU9IaJu2TVrWWjai8en4MMOw9go10JZf8cAGvXAIRsWbeiwGkFHIFnxAtfK_guitjRf033GRiapWDVS3WFHn8wC7hldUsXuPFZwfguUxyv6OOqdO4dzEJ1N7ZZivkOzilzhK3bMKao2Vwlplxsqx8wzLL1fA6YwrHVm1uCHRjJJQGUbk358HwrOkiRkrHjIh5nsa9qLG9Ku2PSmjXdS70bnqC81voy98eL5Is-cYr-P783RS2E-pJlNg","refreshToken":"AMf-vBzwY8hUKwCSfRixr54v74JE2I5aeYe9xrfeUJ4TJ51oBF1kzE2emEnax-w6uuHKwx5u2_klRwemCqs3VJ-NieL9x9gtZd4MYf2etKvht663Ww3-yDZy2pJWTtjdhgyu4fF07d0QmAPys12YGMatz4AA48aT9TtyuxeqrG9JV1KvK4vyfbjFmdbYDY4zxILkhxX0MuUNlPkfOUtGYLsBWSOsJTY_LJqGbfbkzbZVu11t4YsAc8_GwP5Uv4m1UCKJOuBxKhtZNghauqc4nlaHDbMdUOoxlToN5Q6yIQGFNwhQP-_yCmPW2brJzD9fKkSnxvEQJOXtxdAu1Lbag-9emjXkZDgEiUxPGO-sLK2cn92fWYvnIJGVhF4HwAh-2AlHWeXHc-HC0gKiLBdXQQDWB8re7jRFVOjpMKUXvNJdmwbxvmH28dSaqP-Kge6BnMXNkBfGRkDHKPJ-M8OnGO3LUYTFmSY3QpsR7bLOGIRPzTCyZpz4b4pKxwGdyGeY8dhECJMo2ms_wUAVir9amGKKwk2RhAr9mXqBFIy1MfV9bgjhIoE4qyqIzMwb_ebCgjT_6Q9Jo8Le1VhuBDl_m0veA1kQUwAclZwyaZkpYtHosKnz25M77Dnh6WOWAQLw8rIGN7umMaYejwGzcyl2TcRbiOfc7AefQ_ioLqVWgX9scRdqKUvMpKXkWN3Gph8HgYZwbcQFKG-AGgjVtQ6X1Ja2U3Cb6p3LvQ","expiresIn":"3600","isNewUser":false}
+INFO     root:conftest.py:195 Test 'auth_token' SUCCESS.
+INFO     root:conftest.py:196 === Ending auth_token Test ===
+INFO     root:conftest.py:184 === Starting create_product Test ===
+INFO     root:conftest.py:185 API Response: 403 | 
+INFO     root:conftest.py:191 Test 'create_product' FAILED.
+ERROR    root:conftest.py:192 API response status code: 403
+assert 403 in [200, 201, 202, 203, 204, 205]
+ +  where 403 = <Response [403]>.status_code
+Traceback (most recent call last):
+  File "/home/runner/work/qa-nerd-core-backend/qa-nerd-core-backend/conftest.py", line 189, in api_response_conditions
+    assert response.status_code in allowed_status_codes, f"API response status code: {response.status_code}"
+AssertionError: API response status code: 403
+assert 403 in [200, 201, 202, 203, 204, 205]
+ +  where 403 = <Response [403]>.status_code
