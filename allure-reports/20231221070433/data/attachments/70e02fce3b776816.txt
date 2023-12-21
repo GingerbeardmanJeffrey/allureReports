@@ -1,0 +1,4 @@
+INFO     root:conftest.py:184 === Starting test_get_transactions_token Test ===
+INFO     root:conftest.py:185 API Response: 200 | {"wallet":[{"symbol":"IZE","name":"Galvan","transactions":[{"id":"0x5f18db1fa4bc66a2e4615fafb4e5e68426461a143c98ce026e100ee650a83c61","status":"Complete","confirmations":944755,"timestamp":"2023-07-06T20:22:36","fee":0,"link":"https://goerli.etherscan.io/tx/0x5f18db1fa4bc66a2e4615fafb4e5e68426461a143c98ce026e100ee650a83c61","to":["0xe44872c526b025c7846af34b2111f98c0483bf8c"],"from":"0x27c2b953fbbd2745c0cd97bffd40a58189c87854","amount":11,"type":"Deposit","total":11}],"totalPages":1,"totalRecords":1}]}
+INFO     root:conftest.py:195 Test 'test_get_transactions_token' SUCCESS.
+INFO     root:conftest.py:196 === Ending test_get_transactions_token Test ===
