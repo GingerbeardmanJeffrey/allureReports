@@ -1,0 +1,716 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: API response status code: 403\nassert 403 in [200, 201, 202, 203, 204, 205]\n +  where 403 = <Response [403]>.status_code",
+      "children" : [ {
+        "name" : "test_create_agreement",
+        "uid" : "43b41b6c7993aef3",
+        "parentUid" : "b1bb9fe386d9cc0f4919b90aa1675b72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228669908,
+          "stop" : 1703228670102,
+          "duration" : 194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_cart_item",
+        "uid" : "18428063552c8b3b",
+        "parentUid" : "b1bb9fe386d9cc0f4919b90aa1675b72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228672705,
+          "stop" : 1703228672705,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_invoice",
+        "uid" : "7af1cd14df525a8e",
+        "parentUid" : "b1bb9fe386d9cc0f4919b90aa1675b72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228679532,
+          "stop" : 1703228679532,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_affiliates",
+        "uid" : "399f580402d8719",
+        "parentUid" : "b1bb9fe386d9cc0f4919b90aa1675b72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228697464,
+          "stop" : 1703228697644,
+          "duration" : 180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_product",
+        "uid" : "374da656c033676",
+        "parentUid" : "b1bb9fe386d9cc0f4919b90aa1675b72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228700057,
+          "stop" : 1703228700244,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_product_categories",
+        "uid" : "144ea5bf1f59436c",
+        "parentUid" : "b1bb9fe386d9cc0f4919b90aa1675b72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228700496,
+          "stop" : 1703228700678,
+          "duration" : 182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_campaigns",
+        "uid" : "f363380d596c9492",
+        "parentUid" : "b1bb9fe386d9cc0f4919b90aa1675b72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228701276,
+          "stop" : 1703228701476,
+          "duration" : 200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_campaign_by_id",
+        "uid" : "85adfa5104706912",
+        "parentUid" : "b1bb9fe386d9cc0f4919b90aa1675b72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228701746,
+          "stop" : 1703228701941,
+          "duration" : 195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_patch_promotion",
+        "uid" : "df48fbdd7bd5ac5c",
+        "parentUid" : "b1bb9fe386d9cc0f4919b90aa1675b72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228702165,
+          "stop" : 1703228702357,
+          "duration" : 192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_promotions",
+        "uid" : "3eca4d2ebba1f57b",
+        "parentUid" : "b1bb9fe386d9cc0f4919b90aa1675b72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228702373,
+          "stop" : 1703228702563,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_rewards_types",
+        "uid" : "934f58861b23e4a",
+        "parentUid" : "b1bb9fe386d9cc0f4919b90aa1675b72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228702587,
+          "stop" : 1703228702772,
+          "duration" : 185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_action_types",
+        "uid" : "f07721add0b01f14",
+        "parentUid" : "b1bb9fe386d9cc0f4919b90aa1675b72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228702824,
+          "stop" : 1703228703005,
+          "duration" : 181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_requirements",
+        "uid" : "98949d42601d55f4",
+        "parentUid" : "b1bb9fe386d9cc0f4919b90aa1675b72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228703049,
+          "stop" : 1703228703240,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_new_user",
+        "uid" : "9484b1fb364ba8c3",
+        "parentUid" : "b1bb9fe386d9cc0f4919b90aa1675b72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228750331,
+          "stop" : 1703228750536,
+          "duration" : 205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b1bb9fe386d9cc0f4919b90aa1675b72"
+    }, {
+      "name" : "AssertionError: API response status code: 404\nassert 404 in [200, 201, 202, 203, 204, 205]\n +  where 404 = <Response [404]>.status_code",
+      "children" : [ {
+        "name" : "test_get_affiliate",
+        "uid" : "d8e0d5a66d710ed3",
+        "parentUid" : "7343cb132d35750efd12626b0eafc621",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228697658,
+          "stop" : 1703228697850,
+          "duration" : 192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7343cb132d35750efd12626b0eafc621"
+    }, {
+      "name" : "AssertionError: API response status code: 401\nassert 401 in [200, 201, 202, 203, 204, 205]\n +  where 401 = <Response [401]>.status_code",
+      "children" : [ {
+        "name" : "test_get_a_role",
+        "uid" : "326f58fdc60a7a33",
+        "parentUid" : "e9759f46029c98383f34b82e7e56f373",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228704054,
+          "stop" : 1703228704239,
+          "duration" : 185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_roles",
+        "uid" : "219643a7cc640b86",
+        "parentUid" : "e9759f46029c98383f34b82e7e56f373",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228704249,
+          "stop" : 1703228704434,
+          "duration" : 185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_a_role",
+        "uid" : "4c7b32cf70c68f3b",
+        "parentUid" : "e9759f46029c98383f34b82e7e56f373",
+        "status" : "failed",
+        "time" : {
+          "start" : 1703228704462,
+          "stop" : 1703228704649,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9759f46029c98383f34b82e7e56f373"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "NameError: name 'var' is not defined",
+      "children" : [ {
+        "name" : "test_agreement_by_id",
+        "uid" : "b2a9a8ec000a333",
+        "parentUid" : "e118f114396680cc3f0561d98a753fac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228670136,
+          "stop" : 1703228670136,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_agreement",
+        "uid" : "f78b2e8c7583e854",
+        "parentUid" : "e118f114396680cc3f0561d98a753fac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228670141,
+          "stop" : 1703228670141,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e118f114396680cc3f0561d98a753fac"
+    }, {
+      "name" : "NameError: name 'product' is not defined",
+      "children" : [ {
+        "name" : "test_delete_item_from_cart",
+        "uid" : "ce184d5d8f12e05b",
+        "parentUid" : "15bea59b5a691fd1b616ef11866f94b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228673426,
+          "stop" : 1703228673426,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_cancel_invoice",
+        "uid" : "c6abbff8ac47322a",
+        "parentUid" : "15bea59b5a691fd1b616ef11866f94b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228681389,
+          "stop" : 1703228681389,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "15bea59b5a691fd1b616ef11866f94b6"
+    }, {
+      "name" : "NameError: name 'invoice_id' is not defined",
+      "children" : [ {
+        "name" : "test_negative_pay_invoice_no_token",
+        "uid" : "2d8174cc16ca8dbe",
+        "parentUid" : "a8d92319433ef8d4559be05dcf176d3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228680275,
+          "stop" : 1703228680275,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_negative_pay_invoice_invalid_wallet_password",
+        "uid" : "6cb0e678ca2f3e9b",
+        "parentUid" : "a8d92319433ef8d4559be05dcf176d3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228680488,
+          "stop" : 1703228680488,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_negative_pay_invoice_invalid_coin_symbol",
+        "uid" : "df6fbef9c8411066",
+        "parentUid" : "a8d92319433ef8d4559be05dcf176d3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228680496,
+          "stop" : 1703228680496,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_pay_invoice",
+        "uid" : "67443a18e7f45911",
+        "parentUid" : "a8d92319433ef8d4559be05dcf176d3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228680504,
+          "stop" : 1703228680505,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_invoice",
+        "uid" : "9733ff58ec514274",
+        "parentUid" : "a8d92319433ef8d4559be05dcf176d3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228680512,
+          "stop" : 1703228680512,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_shipment",
+        "uid" : "8ce1da7912067083",
+        "parentUid" : "a8d92319433ef8d4559be05dcf176d3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228680520,
+          "stop" : 1703228680520,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_shipment",
+        "uid" : "f407d3b84c48be40",
+        "parentUid" : "a8d92319433ef8d4559be05dcf176d3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228680529,
+          "stop" : 1703228680529,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_cancel_invoice",
+        "uid" : "b5c385f39778383e",
+        "parentUid" : "a8d92319433ef8d4559be05dcf176d3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228681404,
+          "stop" : 1703228681404,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_negative_get_invoice_no_token",
+        "uid" : "370ea19d6a8eb2f4",
+        "parentUid" : "a8d92319433ef8d4559be05dcf176d3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228683115,
+          "stop" : 1703228683115,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_negative_add_shipment_no_token",
+        "uid" : "9f9b83ea9d1da078",
+        "parentUid" : "a8d92319433ef8d4559be05dcf176d3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228683124,
+          "stop" : 1703228683124,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_negative_add_shipment_no_data",
+        "uid" : "face1dc279cf6579",
+        "parentUid" : "a8d92319433ef8d4559be05dcf176d3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228683602,
+          "stop" : 1703228683602,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8d92319433ef8d4559be05dcf176d3f"
+    }, {
+      "name" : "NameError: name 'product_id' is not defined",
+      "children" : [ {
+        "name" : "test_create_product_price_tiers",
+        "uid" : "f228e11469fc10aa",
+        "parentUid" : "3bfdb253b67ca6721f3ea42a99ae5a15",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228700486,
+          "stop" : 1703228700486,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_product_price_tiers",
+        "uid" : "3f6b1d93c97d6285",
+        "parentUid" : "3bfdb253b67ca6721f3ea42a99ae5a15",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228700491,
+          "stop" : 1703228700491,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_product",
+        "uid" : "6efa333f04038df4",
+        "parentUid" : "3bfdb253b67ca6721f3ea42a99ae5a15",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228700689,
+          "stop" : 1703228700689,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3bfdb253b67ca6721f3ea42a99ae5a15"
+    }, {
+      "name" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "children" : [ {
+        "name" : "test_create_campaigns",
+        "uid" : "33644d05f506cad1",
+        "parentUid" : "7bcaf70ebf758f58bb51e7ee5ff79f52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228701508,
+          "stop" : 1703228701701,
+          "duration" : 193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7bcaf70ebf758f58bb51e7ee5ff79f52"
+    }, {
+      "name" : "NameError: name 'campaign_id' is not defined",
+      "children" : [ {
+        "name" : "test_post_create_promotion",
+        "uid" : "cbfac6193d6e1402",
+        "parentUid" : "1a965b238e09db83b30af4adf8c75e41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228702155,
+          "stop" : 1703228702156,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_promotion",
+        "uid" : "94152f31044e50cc",
+        "parentUid" : "1a965b238e09db83b30af4adf8c75e41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228702579,
+          "stop" : 1703228702579,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_rewards",
+        "uid" : "215448446df3e77f",
+        "parentUid" : "1a965b238e09db83b30af4adf8c75e41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228702788,
+          "stop" : 1703228702788,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_post_create_reward",
+        "uid" : "81e0e3c200eb1b19",
+        "parentUid" : "1a965b238e09db83b30af4adf8c75e41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228702797,
+          "stop" : 1703228702797,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_patch_reward",
+        "uid" : "cf2775089ab333d1",
+        "parentUid" : "1a965b238e09db83b30af4adf8c75e41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228702806,
+          "stop" : 1703228702806,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_reward",
+        "uid" : "a8a3a5a6b557cb72",
+        "parentUid" : "1a965b238e09db83b30af4adf8c75e41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228702815,
+          "stop" : 1703228702815,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_requirement",
+        "uid" : "b3ad43939f4985c8",
+        "parentUid" : "1a965b238e09db83b30af4adf8c75e41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228703026,
+          "stop" : 1703228703026,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_patch_requirement",
+        "uid" : "adfec44b24fb5617",
+        "parentUid" : "1a965b238e09db83b30af4adf8c75e41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228703038,
+          "stop" : 1703228703039,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_requirement",
+        "uid" : "19a7fa468f2fa4ee",
+        "parentUid" : "1a965b238e09db83b30af4adf8c75e41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228703256,
+          "stop" : 1703228703256,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_reward",
+        "uid" : "52252da73f51ec30",
+        "parentUid" : "1a965b238e09db83b30af4adf8c75e41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228703480,
+          "stop" : 1703228703480,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_requirement",
+        "uid" : "b701fe1621467",
+        "parentUid" : "1a965b238e09db83b30af4adf8c75e41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228703491,
+          "stop" : 1703228703492,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_promotion",
+        "uid" : "beae589e2d03146",
+        "parentUid" : "1a965b238e09db83b30af4adf8c75e41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228703500,
+          "stop" : 1703228703500,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_campaign_by_id",
+        "uid" : "475d0333b8d0456a",
+        "parentUid" : "1a965b238e09db83b30af4adf8c75e41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228703509,
+          "stop" : 1703228703509,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a965b238e09db83b30af4adf8c75e41"
+    }, {
+      "name" : "NameError: name 'role_id' is not defined",
+      "children" : [ {
+        "name" : "test_delete_a_role",
+        "uid" : "d8495e26a96b60aa",
+        "parentUid" : "179e38da1b73e7d33cd44e184d2c2819",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703228704661,
+          "stop" : 1703228704661,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "179e38da1b73e7d33cd44e184d2c2819"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
