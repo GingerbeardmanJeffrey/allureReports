@@ -1,0 +1,124 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "jsonschema.exceptions.ValidationError: 7633 is not of type 'string', 'null'\n\nFailed validating 'type' in schema['properties']['sponsorId']:\n    {'type': ['string', 'null']}\n\nOn instance['sponsorId']:\n    7633",
+      "children" : [ {
+        "name" : "test_get_sponsor_id",
+        "uid" : "3124a7d56134c5",
+        "parentUid" : "1aeaa83bee52005c6b2ea605be5e4780",
+        "status" : "broken",
+        "time" : {
+          "start" : 1717708693517,
+          "stop" : 1717708693888,
+          "duration" : 371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1aeaa83bee52005c6b2ea605be5e4780"
+    }, {
+      "name" : "jsonschema.exceptions.ValidationError: 7633 is not of type 'string', 'null'\n\nFailed validating 'type' in schema['items']['properties']['sponsorId']:\n    {'type': ['string', 'null']}\n\nOn instance[0]['sponsorId']:\n    7633",
+      "children" : [ {
+        "name" : "test_get_search_term",
+        "uid" : "6c7d896413f0cabc",
+        "parentUid" : "f73b82379cc2b68e2dc1ac3eb180d178",
+        "status" : "broken",
+        "time" : {
+          "start" : 1717708694293,
+          "stop" : 1717708694684,
+          "duration" : 391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_hq_search_by_id",
+        "uid" : "102e05ba908ef01e",
+        "parentUid" : "f73b82379cc2b68e2dc1ac3eb180d178",
+        "status" : "broken",
+        "time" : {
+          "start" : 1717708724826,
+          "stop" : 1717708725200,
+          "duration" : 374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f73b82379cc2b68e2dc1ac3eb180d178"
+    }, {
+      "name" : "jsonschema.exceptions.ValidationError: 7633 is not of type 'string'\n\nFailed validating 'type' in schema[0]:\n    {'type': 'string'}\n\nOn instance:\n    7633",
+      "children" : [ {
+        "name" : "test_get_hq_search_basic",
+        "uid" : "7a4776255228c765",
+        "parentUid" : "be0797df0a62b2a90a5110bae2a24b2a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1717708724042,
+          "stop" : 1717708724439,
+          "duration" : 397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "be0797df0a62b2a90a5110bae2a24b2a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: API response status code: 400\nassert 400 in [200, 201, 202, 203, 204, 205]\n +  where 400 = <Response [400]>.status_code",
+      "children" : [ {
+        "name" : "test_update_permissions_to_a_role",
+        "uid" : "a44d844da4f2bb02",
+        "parentUid" : "89aa0de8790b0c09d6e5757312da4348",
+        "status" : "failed",
+        "time" : {
+          "start" : 1717708715670,
+          "stop" : 1717708716034,
+          "duration" : 364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_update_a_role",
+        "uid" : "7bcded427a2ebd93",
+        "parentUid" : "89aa0de8790b0c09d6e5757312da4348",
+        "status" : "failed",
+        "time" : {
+          "start" : 1717708716042,
+          "stop" : 1717708716401,
+          "duration" : 359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "89aa0de8790b0c09d6e5757312da4348"
+    }, {
+      "name" : "AssertionError: API response status code: 500\nassert 500 in [200, 201, 202, 203, 204, 205]\n +  where 500 = <Response [500]>.status_code",
+      "children" : [ {
+        "name" : "test_get_gas_fee[ize]",
+        "uid" : "cddb602b86416eb2",
+        "parentUid" : "a7210480259d404eab521b8b7384884c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1717708777912,
+          "stop" : 1717708778619,
+          "duration" : 707
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ize'" ]
+      } ],
+      "uid" : "a7210480259d404eab521b8b7384884c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

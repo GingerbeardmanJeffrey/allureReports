@@ -1,0 +1,4 @@
+INFO     root:conftest.py:202 === Starting test_get_transactions_token Test ===
+INFO     root:conftest.py:203 API Response: 200 | {"wallet":[{"symbol":"USDC","name":"USD Coin","transactions":[{"id":"0xd97390566add34bf67b8260730fa150dde0010679175f2697aca15f5e9b7fca4","status":"Complete","confirmations":521094,"timestamp":"2024-03-21T17:51:00","fee":0,"link":"https://sepolia.etherscan.io/tx/0xd97390566add34bf67b8260730fa150dde0010679175f2697aca15f5e9b7fca4","to":["0xe44872c526b025c7846af34b2111f98c0483bf8c"],"from":"0xfb50aa425fc269604b878f0a7ae3c81fd71465ad","amount":50000,"type":"Deposit","total":50000}],"totalPages":1,"totalRecords":1}]}
+INFO     root:conftest.py:213 Test 'test_get_transactions_token' SUCCESS.
+INFO     root:conftest.py:214 === Ending test_get_transactions_token Test ===

@@ -1,0 +1,4 @@
+INFO     root:conftest.py:226 === Starting test_negative_create_invoice_null_payment_method Test (Negative) ===
+INFO     root:conftest.py:227 API Response: 400 | {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"errors":{"request":["The request field is required."],"$.paymentMethod":["The JSON value could not be converted to Nerd.Shopping.ApiContract.CreateInvoiceRequest. Path: $.paymentMethod | LineNumber: 0 | BytePositionInLine: 24."]},"traceId":"00-0c19e58d26061452bb7768965d5aeec4-588f4831647d4f42-00"}
+INFO     root:conftest.py:237 Test 'test_negative_create_invoice_null_payment_method' (Negative) SUCCESS.
+INFO     root:conftest.py:238 === Ending test_negative_create_invoice_null_payment_method Test (Negative) ===

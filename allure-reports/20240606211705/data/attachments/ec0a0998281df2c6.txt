@@ -1,0 +1,28 @@
+INFO     root:conftest.py:226 === Starting test_negative_login_step1_invalid_token Test (Negative) ===
+INFO     root:conftest.py:227 API Response: 400 | {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "errors": [
+      {
+        "message": "API key not valid. Please pass a valid API key.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "identitytoolkit.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+INFO     root:conftest.py:237 Test 'test_negative_login_step1_invalid_token' (Negative) SUCCESS.
+INFO     root:conftest.py:238 === Ending test_negative_login_step1_invalid_token Test (Negative) ===

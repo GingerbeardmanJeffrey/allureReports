@@ -1,0 +1,185 @@
+{
+  "uid" : "cddb602b86416eb2",
+  "name" : "test_get_gas_fee[ize]",
+  "fullName" : "tests.test_api_wallet#test_get_gas_fee",
+  "historyId" : "1f8a92bde1255cbbd291a276a1441192",
+  "time" : {
+    "start" : 1717708777912,
+    "stop" : 1717708778619,
+    "duration" : 707
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: API response status code: 500\nassert 500 in [200, 201, 202, 203, 204, 205]\n +  where 500 = <Response [500]>.status_code",
+  "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/wallet/api'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjMzMDUxMThiZTBmNTZkYzA4NGE0NmExN2RiNzU1NjVkNzY4YmE2ZmUiLCJ0eXAiOiJKV1QifQ.eyJ0ZW5hbnQiOi...EHe9ex0ix7m-mNQGT0MNvGO6imYb6P4tC9aroXXC6n2IpCrhyRH1euX3D_d4WFxzARQKpjw7nfhV5Altyv0IOovVka_jdXlS1Pd-Dt_nGhbKjK1FG6tSgA'\ncoin = 'ize'\napi_get_gas_fee_schema = {'properties': {'btc': {'type': ['string', 'null']}, 'eth': {'type': 'string'}, 'usd': {'type': 'string'}}, 'required': ['eth', 'usd'], 'type': 'object'}\n\n    @pytest.mark.parametrize(\"coin\", [\"eth\", \"ize\", \"usdc\"])\n    def test_get_gas_fee(api_url, auth_token, coin, api_get_gas_fee_schema):\n        url = f\"{api_url}/transactions/fee/{coin}?core=true\"\n        headers = {\"Content-Type\" : \"application/json\" ,\"Authorization\": f\"Bearer {auth_token}\"}\n        response = requests.get(url=url, headers=headers)\n>       api_response_conditions(response)\n\ntests/test_api_wallet.py:88: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [500]>, test_name = 'test_get_gas_fee'\n\n    def api_response_conditions(response, test_name=None):\n        if test_name is None:\n            caller_frame = inspect.currentframe().f_back\n            test_name = caller_frame.f_code.co_name\n        logging.info(f\"=== Starting {test_name} Test ===\")\n        logging.info(f\"API Response: {response.status_code} | {response.text}\")\n        allowed_status_codes = [200, 201, 202, 203, 204, 205]\n    \n        try:\n>           assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\nE           AssertionError: API response status code: 500\nE           assert 500 in [200, 201, 202, 203, 204, 205]\nE            +  where 500 = <Response [500]>.status_code\n\nconftest.py:207: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1717708737468,
+      "stop" : 1717708737468,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1717708737468,
+      "stop" : 1717708738265,
+      "duration" : 797
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1717708737468,
+      "stop" : 1717708737468,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1717708737468,
+      "stop" : 1717708737468,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1717708737468,
+      "stop" : 1717708737468,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1717708737468,
+      "stop" : 1717708737468,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_get_gas_fee_schema",
+    "time" : {
+      "start" : 1717708777912,
+      "stop" : 1717708777912,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: API response status code: 500\nassert 500 in [200, 201, 202, 203, 204, 205]\n +  where 500 = <Response [500]>.status_code",
+    "statusTrace" : "api_url = 'https://api.dev.nerdunited.net/wallet/api'\nauth_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjMzMDUxMThiZTBmNTZkYzA4NGE0NmExN2RiNzU1NjVkNzY4YmE2ZmUiLCJ0eXAiOiJKV1QifQ.eyJ0ZW5hbnQiOi...EHe9ex0ix7m-mNQGT0MNvGO6imYb6P4tC9aroXXC6n2IpCrhyRH1euX3D_d4WFxzARQKpjw7nfhV5Altyv0IOovVka_jdXlS1Pd-Dt_nGhbKjK1FG6tSgA'\ncoin = 'ize'\napi_get_gas_fee_schema = {'properties': {'btc': {'type': ['string', 'null']}, 'eth': {'type': 'string'}, 'usd': {'type': 'string'}}, 'required': ['eth', 'usd'], 'type': 'object'}\n\n    @pytest.mark.parametrize(\"coin\", [\"eth\", \"ize\", \"usdc\"])\n    def test_get_gas_fee(api_url, auth_token, coin, api_get_gas_fee_schema):\n        url = f\"{api_url}/transactions/fee/{coin}?core=true\"\n        headers = {\"Content-Type\" : \"application/json\" ,\"Authorization\": f\"Bearer {auth_token}\"}\n        response = requests.get(url=url, headers=headers)\n>       api_response_conditions(response)\n\ntests/test_api_wallet.py:88: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [500]>, test_name = 'test_get_gas_fee'\n\n    def api_response_conditions(response, test_name=None):\n        if test_name is None:\n            caller_frame = inspect.currentframe().f_back\n            test_name = caller_frame.f_code.co_name\n        logging.info(f\"=== Starting {test_name} Test ===\")\n        logging.info(f\"API Response: {response.status_code} | {response.text}\")\n        allowed_status_codes = [200, 201, 202, 203, 204, 205]\n    \n        try:\n>           assert response.status_code in allowed_status_codes, f\"API response status code: {response.status_code}\"\nE           AssertionError: API response status code: 500\nE           assert 500 in [200, 201, 202, 203, 204, 205]\nE            +  where 500 = <Response [500]>.status_code\n\nconftest.py:207: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f7b2b97c674e849",
+      "name" : "log",
+      "source" : "f7b2b97c674e849.txt",
+      "type" : "text/plain",
+      "size" : 3948
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_wallet"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1425-21"
+  }, {
+    "name" : "thread",
+    "value" : "1585-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_wallet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "coin",
+    "value" : "'ize'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cddb602b86416eb2.json",
+  "parameterValues" : [ "'ize'" ]
+}

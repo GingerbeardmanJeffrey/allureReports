@@ -1,0 +1,4 @@
+INFO     root:conftest.py:226 === Starting test_negative_get_invoice_invalid_id Test (Negative) ===
+INFO     root:conftest.py:227 API Response: 400 | {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"errors":{"Id":["'Id' must not be empty."]},"traceId":"00-01581df213f9b74157b9ce754864a4de-cf76162f0ab479ef-00"}
+INFO     root:conftest.py:237 Test 'test_negative_get_invoice_invalid_id' (Negative) SUCCESS.
+INFO     root:conftest.py:238 === Ending test_negative_get_invoice_invalid_id Test (Negative) ===

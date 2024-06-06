@@ -1,0 +1,148 @@
+{
+  "uid" : "bed3bc0236c78e74",
+  "name" : "test_get_product_price_tiers",
+  "fullName" : "tests.test_api_support_tools#test_get_product_price_tiers",
+  "historyId" : "f5c8846451a9c23740c88df2f20d1ecb",
+  "time" : {
+    "start" : 1717708727360,
+    "stop" : 1717708727360,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Gives a 500 error.  Ticket needed.",
+  "statusTrace" : "('/home/runner/work/qa-nerd-core-backend/qa-nerd-core-backend/tests/test_api_support_tools.py', 192, 'Skipped: Gives a 500 error.  Ticket needed.')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1717708719326,
+      "stop" : 1717708719326,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_version",
+    "time" : {
+      "start" : 1717708719326,
+      "stop" : 1717708719326,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1717708719326,
+      "stop" : 1717708719326,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1717708719326,
+      "stop" : 1717708719326,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_url",
+    "time" : {
+      "start" : 1717708719327,
+      "stop" : 1717708719327,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1717708719327,
+      "stop" : 1717708720045,
+      "duration" : 718
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='Gives a 500 error.  Ticket needed.')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_support_tools"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1425-21"
+  }, {
+    "name" : "thread",
+    "value" : "1585-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api_support_tools"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='Gives a 500 error.  Ticket needed.')" ]
+  },
+  "source" : "bed3bc0236c78e74.json",
+  "parameterValues" : [ ]
+}
